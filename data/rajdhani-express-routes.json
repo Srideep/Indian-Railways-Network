@@ -1,0 +1,1256 @@
+{
+  "rajdhani_express_routes": {
+    "last_updated": "2025-08",
+    "total_routes": 25,
+    "routes": [
+      {
+        "train_number": "12301/12302",
+        "name": "Howrah - New Delhi Rajdhani",
+        "status": "current",
+        "frequency": "Daily",
+        "stations": [
+          {
+            "name": "Howrah Jn",
+            "lat": 22.5836,
+            "lon": 88.3426
+          },
+          {
+            "name": "Dhanbad Jn",
+            "lat": 23.7957,
+            "lon": 86.4304
+          },
+          {
+            "name": "Gaya Jn",
+            "lat": 24.7955,
+            "lon": 84.9994
+          },
+          {
+            "name": "Mughalsarai Jn",
+            "lat": 25.2677,
+            "lon": 83.1152
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12305/12306",
+        "name": "Howrah - New Delhi Rajdhani (via Patna)",
+        "status": "current",
+        "frequency": "Daily",
+        "stations": [
+          {
+            "name": "Howrah Jn",
+            "lat": 22.5836,
+            "lon": 88.3426
+          },
+          {
+            "name": "Asansol Jn",
+            "lat": 23.6833,
+            "lon": 86.9833
+          },
+          {
+            "name": "Patna Jn",
+            "lat": 25.6093,
+            "lon": 85.1376
+          },
+          {
+            "name": "Mughalsarai Jn",
+            "lat": 25.2677,
+            "lon": 83.1152
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12309/12310",
+        "name": "Patna - New Delhi Rajdhani",
+        "status": "current",
+        "frequency": "Daily",
+        "stations": [
+          {
+            "name": "Patna Jn",
+            "lat": 25.6093,
+            "lon": 85.1376
+          },
+          {
+            "name": "Mughalsarai Jn",
+            "lat": 25.2677,
+            "lon": 83.1152
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12313/12314",
+        "name": "Sealdah - New Delhi Rajdhani",
+        "status": "current",
+        "frequency": "Daily",
+        "stations": [
+          {
+            "name": "Sealdah",
+            "lat": 22.5645,
+            "lon": 88.3631
+          },
+          {
+            "name": "Dhanbad Jn",
+            "lat": 23.7957,
+            "lon": 86.4304
+          },
+          {
+            "name": "Gaya Jn",
+            "lat": 24.7955,
+            "lon": 84.9994
+          },
+          {
+            "name": "Mughalsarai Jn",
+            "lat": 25.2677,
+            "lon": 83.1152
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12423/12424",
+        "name": "Dibrugarh - New Delhi Rajdhani",
+        "status": "current",
+        "frequency": "Daily",
+        "stations": [
+          {
+            "name": "Dibrugarh",
+            "lat": 27.4728,
+            "lon": 95.0170
+          },
+          {
+            "name": "Guwahati",
+            "lat": 26.1445,
+            "lon": 91.7362
+          },
+          {
+            "name": "New Jalpaiguri",
+            "lat": 26.6800,
+            "lon": 88.4450
+          },
+          {
+            "name": "Patna Jn",
+            "lat": 25.6093,
+            "lon": 85.1376
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12425/12426",
+        "name": "New Delhi - Jammu Tawi Rajdhani",
+        "status": "current",
+        "frequency": "Daily",
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Ambala Cantt Jn",
+            "lat": 30.3759,
+            "lon": 76.7796
+          },
+          {
+            "name": "Ludhiana Jn",
+            "lat": 30.9120,
+            "lon": 75.8542
+          },
+          {
+            "name": "Pathankot Cantt",
+            "lat": 32.2643,
+            "lon": 75.6517
+          },
+          {
+            "name": "Jammu Tawi",
+            "lat": 32.7266,
+            "lon": 74.8570
+          }
+        ]
+      },
+      {
+        "train_number": "12431/12432",
+        "name": "Thiruvananthapuram - Hazrat Nizamuddin Rajdhani",
+        "status": "current",
+        "frequency": "Tri-Weekly",
+        "stations": [
+          {
+            "name": "Thiruvananthapuram Central",
+            "lat": 8.4875,
+            "lon": 76.9525
+          },
+          {
+            "name": "Ernakulam Jn",
+            "lat": 9.9816,
+            "lon": 76.2999
+          },
+          {
+            "name": "Thrissur",
+            "lat": 10.5276,
+            "lon": 76.2144
+          },
+          {
+            "name": "Palakkad Jn",
+            "lat": 10.7867,
+            "lon": 76.6547
+          },
+          {
+            "name": "Coimbatore Jn",
+            "lat": 10.9925,
+            "lon": 76.9614
+          },
+          {
+            "name": "Vijayawada Jn",
+            "lat": 16.5087,
+            "lon": 80.6197
+          },
+          {
+            "name": "Nagpur",
+            "lat": 21.1458,
+            "lon": 79.0882
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512
+          }
+        ]
+      },
+      {
+        "train_number": "12433/12434",
+        "name": "Chennai - Hazrat Nizamuddin Rajdhani",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "stations": [
+          {
+            "name": "Chennai Central",
+            "lat": 13.0827,
+            "lon": 80.2707
+          },
+          {
+            "name": "Vijayawada Jn",
+            "lat": 16.5087,
+            "lon": 80.6197
+          },
+          {
+            "name": "Warangal",
+            "lat": 17.9784,
+            "lon": 79.5941
+          },
+          {
+            "name": "Nagpur",
+            "lat": 21.1458,
+            "lon": 79.0882
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685
+          },
+          {
+            "name": "Agra Cantt",
+            "lat": 27.1767,
+            "lon": 78.0081
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512
+          }
+        ]
+      },
+      {
+        "train_number": "12437/12438",
+        "name": "Secunderabad - Hazrat Nizamuddin Rajdhani",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "stations": [
+          {
+            "name": "Secunderabad Jn",
+            "lat": 17.4337,
+            "lon": 78.5016
+          },
+          {
+            "name": "Kazipet Jn",
+            "lat": 17.9689,
+            "lon": 79.5263
+          },
+          {
+            "name": "Balharshah",
+            "lat": 19.8519,
+            "lon": 79.3270
+          },
+          {
+            "name": "Nagpur",
+            "lat": 21.1458,
+            "lon": 79.0882
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512
+          }
+        ]
+      },
+      {
+        "train_number": "12441/12442",
+        "name": "Bilaspur - New Delhi Rajdhani",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "stations": [
+          {
+            "name": "Bilaspur Jn",
+            "lat": 22.0796,
+            "lon": 82.1409
+          },
+          {
+            "name": "Raipur Jn",
+            "lat": 21.2514,
+            "lon": 81.6296
+          },
+          {
+            "name": "Durg",
+            "lat": 21.1904,
+            "lon": 81.2849
+          },
+          {
+            "name": "Nagpur",
+            "lat": 21.1458,
+            "lon": 79.0882
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12453/12454",
+        "name": "Ranchi - New Delhi Rajdhani",
+        "status": "current",
+        "frequency": "Weekly",
+        "stations": [
+          {
+            "name": "Ranchi",
+            "lat": 23.3441,
+            "lon": 85.3096
+          },
+          {
+            "name": "Bokaro Steel City",
+            "lat": 23.6693,
+            "lon": 86.1511
+          },
+          {
+            "name": "Dhanbad Jn",
+            "lat": 23.7957,
+            "lon": 86.4304
+          },
+          {
+            "name": "Gaya Jn",
+            "lat": 24.7955,
+            "lon": 84.9994
+          },
+          {
+            "name": "Mughalsarai Jn",
+            "lat": 25.2677,
+            "lon": 83.1152
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12951/12952",
+        "name": "Mumbai Central - New Delhi Rajdhani",
+        "status": "current",
+        "frequency": "Daily",
+        "stations": [
+          {
+            "name": "Mumbai Central",
+            "lat": 18.9690,
+            "lon": 72.8205
+          },
+          {
+            "name": "Borivali",
+            "lat": 19.2307,
+            "lon": 72.8567
+          },
+          {
+            "name": "Surat",
+            "lat": 21.1702,
+            "lon": 72.8311
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812
+          },
+          {
+            "name": "Ratlam Jn",
+            "lat": 23.3315,
+            "lon": 75.0367
+          },
+          {
+            "name": "Kota Jn",
+            "lat": 25.2138,
+            "lon": 75.8648
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12953/12954",
+        "name": "Mumbai Central - Hazrat Nizamuddin Rajdhani",
+        "status": "current",
+        "frequency": "Daily",
+        "stations": [
+          {
+            "name": "Mumbai Central",
+            "lat": 18.9690,
+            "lon": 72.8205
+          },
+          {
+            "name": "Borivali",
+            "lat": 19.2307,
+            "lon": 72.8567
+          },
+          {
+            "name": "Surat",
+            "lat": 21.1702,
+            "lon": 72.8311
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812
+          },
+          {
+            "name": "Ratlam Jn",
+            "lat": 23.3315,
+            "lon": 75.0367
+          },
+          {
+            "name": "Kota Jn",
+            "lat": 25.2138,
+            "lon": 75.8648
+          },
+          {
+            "name": "Mathura Jn",
+            "lat": 27.4924,
+            "lon": 77.6737
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512
+          }
+        ]
+      },
+      {
+        "train_number": "12957/12958",
+        "name": "Ahmedabad - New Delhi Rajdhani",
+        "status": "current",
+        "frequency": "Daily",
+        "stations": [
+          {
+            "name": "Ahmedabad Jn",
+            "lat": 23.0225,
+            "lon": 72.5714
+          },
+          {
+            "name": "Nadiad Jn",
+            "lat": 22.6939,
+            "lon": 72.8627
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812
+          },
+          {
+            "name": "Ratlam Jn",
+            "lat": 23.3315,
+            "lon": 75.0367
+          },
+          {
+            "name": "Kota Jn",
+            "lat": 25.2138,
+            "lon": 75.8648
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "20505/20506",
+        "name": "Dibrugarh - New Delhi Rajdhani (Tejas)",
+        "status": "current",
+        "frequency": "Tri-Weekly",
+        "stations": [
+          {
+            "name": "Dibrugarh",
+            "lat": 27.4728,
+            "lon": 95.0170
+          },
+          {
+            "name": "New Tinsukia Jn",
+            "lat": 27.5008,
+            "lon": 95.3606
+          },
+          {
+            "name": "Guwahati",
+            "lat": 26.1445,
+            "lon": 91.7362
+          },
+          {
+            "name": "New Jalpaiguri",
+            "lat": 26.6800,
+            "lon": 88.4450
+          },
+          {
+            "name": "Patna Jn",
+            "lat": 25.6093,
+            "lon": 85.1376
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "20503/20504",
+        "name": "Agartala - Anand Vihar Terminal Rajdhani (Tejas)",
+        "status": "current",
+        "frequency": "Weekly",
+        "stations": [
+          {
+            "name": "Agartala",
+            "lat": 23.8315,
+            "lon": 91.2868
+          },
+          {
+            "name": "Badarpur",
+            "lat": 24.8647,
+            "lon": 92.5961
+          },
+          {
+            "name": "Lumding Jn",
+            "lat": 25.7511,
+            "lon": 93.1769
+          },
+          {
+            "name": "Guwahati",
+            "lat": 26.1445,
+            "lon": 91.7362
+          },
+          {
+            "name": "New Jalpaiguri",
+            "lat": 26.6800,
+            "lon": 88.4450
+          },
+          {
+            "name": "Patna Jn",
+            "lat": 25.6093,
+            "lon": 85.1376
+          },
+          {
+            "name": "Anand Vihar Terminal",
+            "lat": 28.6469,
+            "lon": 77.3163
+          }
+        ]
+      },
+      {
+        "train_number": "20839/20840",
+        "name": "Ranchi - New Delhi Rajdhani",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "stations": [
+          {
+            "name": "Ranchi",
+            "lat": 23.3441,
+            "lon": 85.3096
+          },
+          {
+            "name": "Bokaro Steel City",
+            "lat": 23.6693,
+            "lon": 86.1511
+          },
+          {
+            "name": "Gaya Jn",
+            "lat": 24.7955,
+            "lon": 84.9994
+          },
+          {
+            "name": "Deen Dayal Upadhyaya Jn",
+            "lat": 25.2677,
+            "lon": 83.1152
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "22221/22222",
+        "name": "CSMT Mumbai - Hazrat Nizamuddin Rajdhani",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "stations": [
+          {
+            "name": "Chhatrapati Shivaji Maharaj Terminus",
+            "lat": 18.9398,
+            "lon": 72.8355
+          },
+          {
+            "name": "Kalyan Jn",
+            "lat": 19.2437,
+            "lon": 73.1442
+          },
+          {
+            "name": "Nashik Road",
+            "lat": 20.0087,
+            "lon": 73.7450
+          },
+          {
+            "name": "Jalgaon Jn",
+            "lat": 21.0077,
+            "lon": 75.5626
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685
+          },
+          {
+            "name": "Agra Cantt",
+            "lat": 27.1767,
+            "lon": 78.0081
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512
+          }
+        ]
+      },
+      {
+        "train_number": "22413/22414",
+        "name": "Madgaon - Hazrat Nizamuddin Rajdhani",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "stations": [
+          {
+            "name": "Madgaon",
+            "lat": 15.2759,
+            "lon": 73.9558
+          },
+          {
+            "name": "Ratnagiri",
+            "lat": 16.9944,
+            "lon": 73.3002
+          },
+          {
+            "name": "Panvel",
+            "lat": 18.9894,
+            "lon": 73.1175
+          },
+          {
+            "name": "Vasai Road",
+            "lat": 19.3919,
+            "lon": 72.8397
+          },
+          {
+            "name": "Surat",
+            "lat": 21.1702,
+            "lon": 72.8311
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812
+          },
+          {
+            "name": "Ratlam Jn",
+            "lat": 23.3315,
+            "lon": 75.0367
+          },
+          {
+            "name": "Kota Jn",
+            "lat": 25.2138,
+            "lon": 75.8648
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512
+          }
+        ]
+      },
+      {
+        "train_number": "22691/22692",
+        "name": "Bangalore - Hazrat Nizamuddin Rajdhani",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "stations": [
+          {
+            "name": "KSR Bangalore City",
+            "lat": 12.9716,
+            "lon": 77.5946
+          },
+          {
+            "name": "Yesvantpur Jn",
+            "lat": 13.0226,
+            "lon": 77.5452
+          },
+          {
+            "name": "Anantapur",
+            "lat": 14.6819,
+            "lon": 77.6006
+          },
+          {
+            "name": "Guntakal Jn",
+            "lat": 15.1669,
+            "lon": 77.3710
+          },
+          {
+            "name": "Raichur",
+            "lat": 16.2020,
+            "lon": 77.3566
+          },
+          {
+            "name": "Secunderabad Jn",
+            "lat": 17.4337,
+            "lon": 78.5016
+          },
+          {
+            "name": "Nagpur",
+            "lat": 21.1458,
+            "lon": 79.0882
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512
+          }
+        ]
+      },
+      {
+        "train_number": "22811/22812",
+        "name": "Bhubaneswar - New Delhi Rajdhani",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "stations": [
+          {
+            "name": "Bhubaneswar",
+            "lat": 20.2961,
+            "lon": 85.8245
+          },
+          {
+            "name": "Cuttack",
+            "lat": 20.4625,
+            "lon": 85.8830
+          },
+          {
+            "name": "Bhadrak",
+            "lat": 21.0548,
+            "lon": 86.5156
+          },
+          {
+            "name": "Balasore",
+            "lat": 21.4942,
+            "lon": 86.9336
+          },
+          {
+            "name": "Kharagpur Jn",
+            "lat": 22.3397,
+            "lon": 87.3238
+          },
+          {
+            "name": "Tatanagar Jn",
+            "lat": 22.7925,
+            "lon": 86.1785
+          },
+          {
+            "name": "Bokaro Steel City",
+            "lat": 23.6693,
+            "lon": 86.1511
+          },
+          {
+            "name": "Gaya Jn",
+            "lat": 24.7955,
+            "lon": 84.9994
+          },
+          {
+            "name": "Mughalsarai Jn",
+            "lat": 25.2677,
+            "lon": 83.1152
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12435/12436",
+        "name": "Dibrugarh - Hazrat Nizamuddin Rajdhani",
+        "status": "current",
+        "frequency": "Weekly",
+        "stations": [
+          {
+            "name": "Dibrugarh",
+            "lat": 27.4728,
+            "lon": 95.0170
+          },
+          {
+            "name": "Tinsukia Jn",
+            "lat": 27.5008,
+            "lon": 95.3606
+          },
+          {
+            "name": "Mariani Jn",
+            "lat": 26.6558,
+            "lon": 94.4468
+          },
+          {
+            "name": "Guwahati",
+            "lat": 26.1445,
+            "lon": 91.7362
+          },
+          {
+            "name": "New Cooch Behar",
+            "lat": 26.3452,
+            "lon": 89.4482
+          },
+          {
+            "name": "New Jalpaiguri",
+            "lat": 26.6800,
+            "lon": 88.4450
+          },
+          {
+            "name": "Kishanganj",
+            "lat": 26.1025,
+            "lon": 87.9494
+          },
+          {
+            "name": "Patna Jn",
+            "lat": 25.6093,
+            "lon": 85.1376
+          },
+          {
+            "name": "Mughalsarai Jn",
+            "lat": 25.2677,
+            "lon": 83.1152
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512
+          }
+        ]
+      },
+      {
+        "train_number": "22823/22824",
+        "name": "Bhubaneswar - New Delhi Rajdhani (via Bokaro)",
+        "status": "current",
+        "frequency": "Weekly",
+        "stations": [
+          {
+            "name": "Bhubaneswar",
+            "lat": 20.2961,
+            "lon": 85.8245
+          },
+          {
+            "name": "Cuttack",
+            "lat": 20.4625,
+            "lon": 85.8830
+          },
+          {
+            "name": "Dhenkanal",
+            "lat": 20.6657,
+            "lon": 85.5978
+          },
+          {
+            "name": "Angul",
+            "lat": 20.8364,
+            "lon": 85.1019
+          },
+          {
+            "name": "Rourkela",
+            "lat": 22.2604,
+            "lon": 84.8536
+          },
+          {
+            "name": "Ranchi",
+            "lat": 23.3441,
+            "lon": 85.3096
+          },
+          {
+            "name": "Bokaro Steel City",
+            "lat": 23.6693,
+            "lon": 86.1511
+          },
+          {
+            "name": "Gaya Jn",
+            "lat": 24.7955,
+            "lon": 84.9994
+          },
+          {
+            "name": "Deen Dayal Upadhyaya Jn",
+            "lat": 25.2677,
+            "lon": 83.1152
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "20501/20502",
+        "name": "Agartala - New Delhi Rajdhani",
+        "status": "current",
+        "frequency": "Weekly",
+        "stations": [
+          {
+            "name": "Agartala",
+            "lat": 23.8315,
+            "lon": 91.2868
+          },
+          {
+            "name": "New Haflong",
+            "lat": 25.1839,
+            "lon": 93.0172
+          },
+          {
+            "name": "Lumding Jn",
+            "lat": 25.7511,
+            "lon": 93.1769
+          },
+          {
+            "name": "Guwahati",
+            "lat": 26.1445,
+            "lon": 91.7362
+          },
+          {
+            "name": "New Alipurduar",
+            "lat": 26.4891,
+            "lon": 89.5273
+          },
+          {
+            "name": "New Jalpaiguri",
+            "lat": 26.6800,
+            "lon": 88.4450
+          },
+          {
+            "name": "Katihar Jn",
+            "lat": 25.5540,
+            "lon": 87.5795
+          },
+          {
+            "name": "Barauni Jn",
+            "lat": 25.4829,
+            "lon": 86.0054
+          },
+          {
+            "name": "Patna Jn",
+            "lat": 25.6093,
+            "lon": 85.1376
+          },
+          {
+            "name": "Mughalsarai Jn",
+            "lat": 25.2677,
+            "lon": 83.1152
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "20817/20818",
+        "name": "Bhubaneswar - New Delhi Rajdhani (via Sambalpur)",
+        "status": "current",
+        "frequency": "Weekly",
+        "stations": [
+          {
+            "name": "Bhubaneswar",
+            "lat": 20.2961,
+            "lon": 85.8245
+          },
+          {
+            "name": "Cuttack",
+            "lat": 20.4625,
+            "lon": 85.8830
+          },
+          {
+            "name": "Angul",
+            "lat": 20.8364,
+            "lon": 85.1019
+          },
+          {
+            "name": "Sambalpur",
+            "lat": 21.4669,
+            "lon": 83.9812
+          },
+          {
+            "name": "Jharsuguda Jn",
+            "lat": 21.8560,
+            "lon": 84.0067
+          },
+          {
+            "name": "Rourkela",
+            "lat": 22.2604,
+            "lon": 84.8536
+          },
+          {
+            "name": "Ranchi",
+            "lat": 23.3441,
+            "lon": 85.3096
+          },
+          {
+            "name": "Bokaro Steel City",
+            "lat": 23.6693,
+            "lon": 86.1511
+          },
+          {
+            "name": "Gaya Jn",
+            "lat": 24.7955,
+            "lon": 84.9994
+          },
+          {
+            "name": "Deen Dayal Upadhyaya Jn",
+            "lat": 25.2677,
+            "lon": 83.1152
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      }
+    ],
+    "notes": {
+      "description": "This list includes all current Rajdhani Express trains connecting New Delhi/Hazrat Nizamuddin with various state capitals and major cities across India",
+      "features": [
+        "Fully air-conditioned trains",
+        "Priority on Indian Railway network",
+        "Complimentary meals included",
+        "Three classes: 1AC, 2AC, 3AC",
+        "Maximum speed: 130-140 km/h",
+        "Tejas coaches being introduced in phases"
+      ],
+      "stations_note": "Only major stations are listed. Some trains may have additional minor stops.",
+      "coordinates_note": "Coordinates are approximate and based on station locations."
+    }
+  }
+}
