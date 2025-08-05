@@ -29,7 +29,7 @@ map_specs = {
         "legend_position": "lower right",
         "grid_lines": False
     },
-    "output_file_name": "vande_bharat_routes_map.png",
+    "output_file_name": "../media/vande_bharat_routes_map.png",
     "output_dpi": 500
 }
 filename = '../data/vb_route_data.json'
