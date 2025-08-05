@@ -1,0 +1,317 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": 5,
+        "segment_name": "Lakhnadon \u2192 Raipur",
+        "corridor": "Lakhnadon\u2013Raipur Expressway",
+        "distance_km": 273.95027377551014,
+        "est_time_min": 182.63351585034007,
+        "est_time_hhmm": "03:03"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            79.6002,
+            22.5975
+          ],
+          [
+            80.385,
+            22.2875
+          ],
+          [
+            81.2313,
+            22.0086
+          ],
+          [
+            81.6296,
+            21.2514
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "agra_gwalior_expy",
+        "segment_name": "Agra\u2013Gwalior Expressway",
+        "corridor": "Agra\u2013Gwalior Expressway",
+        "distance_km": 114.49527743949739,
+        "est_time_min": 76.33018495966493,
+        "est_time_hhmm": "01:16"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.0081,
+            27.1767
+          ],
+          [
+            77.9042,
+            26.7042
+          ],
+          [
+            77.9946,
+            26.4966
+          ],
+          [
+            78.1828,
+            26.2183
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "dme_delhi_vadodara",
+        "segment_name": "Delhi NCR (Sohna) \u2192 Vadodara",
+        "corridor": "Delhi\u2013Vadodara",
+        "distance_km": 875.6875121597568,
+        "est_time_min": 525.4125072958541,
+        "est_time_hhmm": "08:45"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.0674,
+            28.2472
+          ],
+          [
+            76.728,
+            27.9906
+          ],
+          [
+            76.3151,
+            27.63
+          ],
+          [
+            75.7873,
+            26.9124
+          ],
+          [
+            76.02,
+            26.116
+          ],
+          [
+            75.626,
+            25.765
+          ],
+          [
+            75.8648,
+            25.2138
+          ],
+          [
+            75.387,
+            24.63
+          ],
+          [
+            75.0403,
+            23.3303
+          ],
+          [
+            74.489,
+            22.6019
+          ],
+          [
+            73.1812,
+            22.3072
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "dme_vadodara_mumbai",
+        "segment_name": "Vadodara \u2192 Mumbai (JNPT)",
+        "corridor": "Vadodara\u2013Mumbai",
+        "distance_km": 379.8119902307108,
+        "est_time_min": 239.88125698781735,
+        "est_time_hhmm": "03:60"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            73.1812,
+            22.3072
+          ],
+          [
+            72.933,
+            21.7
+          ],
+          [
+            72.8311,
+            21.1702
+          ],
+          [
+            72.8895,
+            20.4637
+          ],
+          [
+            72.874,
+            19.9898
+          ],
+          [
+            72.948,
+            18.9467
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "gwl_lakh_expy",
+        "segment_name": "Gwalior \u2192 Jhansi \u2192 UP/MP Border -> Lakhnadon",
+        "corridor": "Gwalior\u2013Lakhnadon Expressway",
+        "distance_km": 437.78611625361367,
+        "est_time_min": 291.8574108357424,
+        "est_time_hhmm": "04:52"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            78.1828,
+            26.2183
+          ],
+          [
+            78.4581,
+            25.6706
+          ],
+          [
+            78.5685,
+            25.4484
+          ],
+          [
+            78.75,
+            25.02
+          ],
+          [
+            79.1429,
+            23.7806
+          ],
+          [
+            79.1986,
+            22.9489
+          ],
+          [
+            79.6002,
+            22.5975
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "raipur_vizag_expy",
+        "segment_name": "Raipur \u2192 Visakhapatnam",
+        "corridor": "Raipur\u2013Vizag Expressway (NH-130CD)",
+        "distance_km": 506.6172793794361,
+        "est_time_min": 337.744852919624,
+        "est_time_hhmm": "05:38"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            81.6296,
+            21.2514
+          ],
+          [
+            81.7246,
+            21.0415
+          ],
+          [
+            81.7207,
+            20.8302
+          ],
+          [
+            81.554,
+            20.7074
+          ],
+          [
+            81.4931,
+            20.2716
+          ],
+          [
+            81.6648,
+            19.59
+          ],
+          [
+            82.008,
+            19.074
+          ],
+          [
+            82.5716,
+            18.8563
+          ],
+          [
+            82.7109,
+            18.811
+          ],
+          [
+            82.866,
+            18.7166
+          ],
+          [
+            83.2059,
+            18.5173
+          ],
+          [
+            83.3956,
+            18.1067
+          ],
+          [
+            83.2185,
+            17.6868
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "yamuna_expy",
+        "segment_name": "Yamuna Expressway",
+        "corridor": "Delhi\u2013Agra (Yamuna Expressway)",
+        "distance_km": 192.77420902805287,
+        "est_time_min": 128.51613935203525,
+        "est_time_hhmm": "02:09"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.209,
+            28.6139
+          ],
+          [
+            77.521,
+            28.474
+          ],
+          [
+            77.548,
+            28.0995
+          ],
+          [
+            77.6737,
+            27.4924
+          ],
+          [
+            78.0081,
+            27.1767
+          ]
+        ]
+      }
+    }
+  ]
+}

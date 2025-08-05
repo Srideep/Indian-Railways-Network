@@ -1,0 +1,2964 @@
+{
+    "routes": [
+        {
+            "name": "Amritsar - Delhi Jn",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Amritsar Jn",
+                    "lat": 31.6361,
+                    "lon": 74.8688
+                },
+                {
+                    "name": "Beas",
+                    "lat": 31.5383,
+                    "lon": 75.3011
+                },
+                {
+                    "name": "Jalandhar Cantt",
+                    "lat": 31.3125,
+                    "lon": 75.6176
+                },
+                {
+                    "name": "Phagwara Jn",
+                    "lat": 31.2186,
+                    "lon": 75.7703
+                },
+                {
+                    "name": "Ludhiana Jn",
+                    "lat": 30.912,
+                    "lon": 75.8542
+                },
+                {
+                    "name": "Ambala Cantt Jn",
+                    "lat": 30.3759,
+                    "lon": 76.7796
+                },
+                {
+                    "name": "Delhi Jn",
+                    "lat": 28.656,
+                    "lon": 77.2278
+                }
+            ]
+        },
+        {
+            "name": "New Delhi - Amb Andaura",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "New Delhi",
+                    "lat": 28.6392,
+                    "lon": 77.2158
+                },
+                {
+                    "name": "Ambala Cantt Jn",
+                    "lat": 30.3759,
+                    "lon": 76.7796
+                },
+                {
+                    "name": "Chandigarh",
+                    "lat": 30.7,
+                    "lon": 76.785
+                },
+                {
+                    "name": "Anandpur Sahib",
+                    "lat": 31.2385,
+                    "lon": 76.5004
+                },
+                {
+                    "name": "Una Himachal",
+                    "lat": 31.469,
+                    "lon": 76.274
+                },
+                {
+                    "name": "Amb Andaura",
+                    "lat": 31.8028,
+                    "lon": 76.3297
+                }
+            ]
+        },
+        {
+            "name": "New Delhi - SMVD Katra",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "New Delhi",
+                    "lat": 28.6392,
+                    "lon": 77.2158
+                },
+                {
+                    "name": "Ambala Cantt Jn",
+                    "lat": 30.3759,
+                    "lon": 76.7796
+                },
+                {
+                    "name": "Ludhiana Jn",
+                    "lat": 30.912,
+                    "lon": 75.8542
+                },
+                {
+                    "name": "Pathankot Cantt",
+                    "lat": 32.2643,
+                    "lon": 75.6534
+                },
+                {
+                    "name": "Jammu Tawi",
+                    "lat": 32.6894,
+                    "lon": 74.8656
+                },
+                {
+                    "name": "SMVD Katra",
+                    "lat": 32.9908,
+                    "lon": 74.9314
+                }
+            ]
+        },
+        {
+            "name": "Meerut - Lucknow",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Meerut City",
+                    "lat": 29.0033,
+                    "lon": 77.699
+                },
+                {
+                    "name": "Hapur",
+                    "lat": 28.743,
+                    "lon": 77.7763
+                },
+                {
+                    "name": "Moradabad",
+                    "lat": 28.8372,
+                    "lon": 78.7738
+                },
+                {
+                    "name": "Bareilly",
+                    "lat": 28.3651,
+                    "lon": 79.4155
+                },
+                {
+                    "name": "Lucknow Charbagh",
+                    "lat": 26.8381,
+                    "lon": 80.924
+                }
+            ]
+        },
+        {
+            "name": "Anand Vihar - Ayodhya",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Anand Vihar Tml",
+                    "lat": 28.6509,
+                    "lon": 77.3146
+                },
+                {
+                    "name": "Khurja Jn",
+                    "lat": 28.2678,
+                    "lon": 77.8698
+                },
+                {
+                    "name": "Aligarh Jn",
+                    "lat": 27.9002,
+                    "lon": 78.0716
+                },
+                {
+                    "name": "Kanpur Central",
+                    "lat": 26.4515,
+                    "lon": 80.3312
+                },
+                {
+                    "name": "Lucknow Charbagh",
+                    "lat": 26.8381,
+                    "lon": 80.924
+                },
+                {
+                    "name": "Ayodhya Cantt",
+                    "lat": 26.7851,
+                    "lon": 82.1391
+                }
+            ]
+        },
+        {
+            "name": "Dehradun - Anand Vihar",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Dehradun",
+                    "lat": 30.3246,
+                    "lon": 78.0286
+                },
+                {
+                    "name": "Haridwar Jn",
+                    "lat": 29.946,
+                    "lon": 78.1673
+                },
+                {
+                    "name": "Roorkee",
+                    "lat": 29.8667,
+                    "lon": 77.8938
+                },
+                {
+                    "name": "Saharanpur",
+                    "lat": 29.9634,
+                    "lon": 77.5457
+                },
+                {
+                    "name": "Deoband",
+                    "lat": 29.6922,
+                    "lon": 77.6778
+                },
+                {
+                    "name": "Muzaffarnagar",
+                    "lat": 29.4815,
+                    "lon": 77.7085
+                },
+                {
+                    "name": "Meerut City",
+                    "lat": 29.0033,
+                    "lon": 77.699
+                },
+                {
+                    "name": "Anand Vihar Tml",
+                    "lat": 28.6509,
+                    "lon": 77.3146
+                }
+            ]
+        },
+        {
+            "name": "New Delhi - Varanasi",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "New Delhi",
+                    "lat": 28.6392,
+                    "lon": 77.2158
+                },
+                {
+                    "name": "Kanpur Central",
+                    "lat": 26.4515,
+                    "lon": 80.3312
+                },
+                {
+                    "name": "Prayagraj Jn",
+                    "lat": 25.44,
+                    "lon": 81.834
+                },
+                {
+                    "name": "Varanasi Jn",
+                    "lat": 25.3226,
+                    "lon": 82.9882
+                }
+            ]
+        },
+        {
+            "name": "Nizamuddin - Khajuraho",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Hazrat Nizamuddin",
+                    "lat": 28.5905,
+                    "lon": 77.2507
+                },
+                {
+                    "name": "Agra Cantt",
+                    "lat": 27.1495,
+                    "lon": 78.0677
+                },
+                {
+                    "name": "Gwalior Jn",
+                    "lat": 26.2234,
+                    "lon": 78.1805
+                },
+                {
+                    "name": "Datia",
+                    "lat": 25.6724,
+                    "lon": 78.4567
+                },
+                {
+                    "name": "Jhansi Jn",
+                    "lat": 25.4482,
+                    "lon": 78.5609
+                },
+                {
+                    "name": "Lalitpur Jn",
+                    "lat": 24.2116,
+                    "lon": 78.2094
+                },
+                {
+                    "name": "Tikamgarh",
+                    "lat": 24.7434,
+                    "lon": 78.8467
+                },
+                {
+                    "name": "MCS Chhatarpur",
+                    "lat": 24.8958,
+                    "lon": 79.1142
+                },
+                {
+                    "name": "Khajuraho",
+                    "lat": 24.8478,
+                    "lon": 79.9337
+                }
+            ]
+        },
+        {
+            "name": "Varanasi - Deoghar",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Varanasi Jn",
+                    "lat": 25.3226,
+                    "lon": 82.9882
+                },
+                {
+                    "name": "Pt DD Upadhyaya Jn",
+                    "lat": 25.2819,
+                    "lon": 83.1195
+                },
+                {
+                    "name": "Sasaram",
+                    "lat": 24.9649,
+                    "lon": 84.036
+                },
+                {
+                    "name": "Gaya Jn",
+                    "lat": 24.7969,
+                    "lon": 85.0033
+                },
+                {
+                    "name": "Nawadah",
+                    "lat": 24.8853,
+                    "lon": 85.544
+                },
+                {
+                    "name": "Kiul Jn",
+                    "lat": 25.1719,
+                    "lon": 86.0977
+                },
+                {
+                    "name": "Jasidih Jn",
+                    "lat": 24.5124,
+                    "lon": 86.6444
+                },
+                {
+                    "name": "Deoghar",
+                    "lat": 24.4764,
+                    "lon": 86.7005
+                }
+            ]
+        },
+        {
+            "name": "SMVD Katra - Srinagar",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "SMVD Katra",
+                    "lat": 32.9908,
+                    "lon": 74.9314
+                },
+                {
+                    "name": "Banihal",
+                    "lat": 33.4359,
+                    "lon": 75.1905
+                },
+                {
+                    "name": "Srinagar (Kashmir)",
+                    "lat": 34.0758,
+                    "lon": 74.8081
+                }
+            ]
+        },
+        {
+            "name": "Agra Cantt - Banaras",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Agra Cantt",
+                    "lat": 27.1495,
+                    "lon": 78.0677
+                },
+                {
+                    "name": "Tundla Junction",
+                    "lat": 27.213522,
+                    "lon": 78.239075
+                },
+                {
+                    "name": "Etah",
+                    "lat": 27.5583,
+                    "lon": 78.6614
+                },
+                {
+                    "name": "Kanpur Central",
+                    "lat": 26.4515,
+                    "lon": 80.3312
+                },
+                {
+                    "name": "Prayagraj Jn",
+                    "lat": 25.44,
+                    "lon": 81.834
+                },
+                {
+                    "name": "Banaras",
+                    "lat": 25.28472,
+                    "lon": 82.97222
+                }
+            ]
+        },
+        {
+            "name": "Gorakhpur - Prayagraj",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Gorakhpur Jn",
+                    "lat": 26.7598,
+                    "lon": 83.3818
+                },
+                {
+                    "name": "Basti",
+                    "lat": 26.822845,
+                    "lon": 82.763443
+                },
+                {
+                    "name": "Ayodhya Cantt",
+                    "lat": 26.7851,
+                    "lon": 82.1391
+                },
+                {
+                    "name": "Lucknow Charbagh",
+                    "lat": 26.8381,
+                    "lon": 80.924
+                },
+                {
+                    "name": "Rae Bareli Jn",
+                    "lat": 26.230299,
+                    "lon": 81.240891
+                },
+                {
+                    "name": "Prayagraj Jn",
+                    "lat": 25.44,
+                    "lon": 81.834
+                }
+            ]
+        },
+        {
+            "name": "Lucknow Jct - Dehradun",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Lucknow Jct",
+                    "lat": 26.832,
+                    "lon": 80.919
+                },
+                {
+                    "name": "Bareilly",
+                    "lat": 28.3651,
+                    "lon": 79.4155
+                },
+                {
+                    "name": "Moradabad",
+                    "lat": 28.8372,
+                    "lon": 78.7738
+                },
+                {
+                    "name": "Najibabad Jn",
+                    "lat": 29.607981,
+                    "lon": 78.342674
+                },
+                {
+                    "name": "Haridwar Jn",
+                    "lat": 29.946,
+                    "lon": 78.1673
+                },
+                {
+                    "name": "Dehradun",
+                    "lat": 30.3246,
+                    "lon": 78.0286
+                }
+            ]
+        },
+        {
+            "name": "Gorakhpur - Patliputra",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Gorakhpur Jn",
+                    "lat": 26.7598,
+                    "lon": 83.3818
+                },
+                {
+                    "name": "Kaptanganj Jn",
+                    "lat": 26.926667,
+                    "lon": 83.715278
+                },
+                {
+                    "name": "Bagaha",
+                    "lat": 27.122196,
+                    "lon": 84.072235
+                },
+                {
+                    "name": "Narkatiaganj Jn",
+                    "lat": 27.10887,
+                    "lon": 84.468121
+                },
+                {
+                    "name": "Bettiah",
+                    "lat": 26.799999,
+                    "lon": 84.5
+                },
+                {
+                    "name": "Sagauli Jn",
+                    "lat": 26.7587,
+                    "lon": 84.7393
+                },
+                {
+                    "name": "Bapudham Motihari",
+                    "lat": 26.65,
+                    "lon": 84.916664
+                },
+                {
+                    "name": "Muzaffarpur Jn",
+                    "lat": 26.1223,
+                    "lon": 85.3779
+                },
+                {
+                    "name": "Hajipur Jn",
+                    "lat": 25.6833,
+                    "lon": 85.2167
+                },
+                {
+                    "name": "Patliputra Jn",
+                    "lat": 25.62162,
+                    "lon": 85.06887
+                }
+            ]
+        },
+        {
+            "name": "Ajmer - Chandigarh",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Ajmer Jn",
+                    "lat": 26.456986,
+                    "lon": 74.637664
+                },
+                {
+                    "name": "Kishangarh",
+                    "lat": 26.588528,
+                    "lon": 74.872513
+                },
+                {
+                    "name": "Jaipur Jn",
+                    "lat": 26.919769,
+                    "lon": 75.788369
+                },
+                {
+                    "name": "Gandhinagar Jaipur",
+                    "lat": 26.873471,
+                    "lon": 75.799008
+                },
+                {
+                    "name": "Alwar Jn",
+                    "lat": 27.560932,
+                    "lon": 76.625015
+                },
+                {
+                    "name": "Rewari Jn",
+                    "lat": 28.183332,
+                    "lon": 76.616669
+                },
+                {
+                    "name": "Gurgaon",
+                    "lat": 28.489369,
+                    "lon": 77.010925
+                },
+                {
+                    "name": "Delhi Cantt",
+                    "lat": 28.599997,
+                    "lon": 77.133333
+                },
+                {
+                    "name": "Ambala Cantt Jn",
+                    "lat": 30.3759,
+                    "lon": 76.7796
+                },
+                {
+                    "name": "Chandigarh",
+                    "lat": 30.7,
+                    "lon": 76.785
+                }
+            ]
+        },
+        {
+            "name": "Jodhpur - Sabarmati",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Jodhpur Jn",
+                    "lat": 26.283997,
+                    "lon": 73.022506
+                },
+                {
+                    "name": "Pali Marwar",
+                    "lat": 25.79097,
+                    "lon": 73.32729
+                },
+                {
+                    "name": "Falna",
+                    "lat": 25.23595,
+                    "lon": 73.23515
+                },
+                {
+                    "name": "Abu Road",
+                    "lat": 24.48,
+                    "lon": 72.78
+                },
+                {
+                    "name": "Palanpur Jn",
+                    "lat": 24.179331,
+                    "lon": 72.426682
+                },
+                {
+                    "name": "Mahesana Jn",
+                    "lat": 23.586761,
+                    "lon": 72.369949
+                },
+                {
+                    "name": "Sabarmati BG",
+                    "lat": 23.071457,
+                    "lon": 72.587237
+                }
+            ]
+        },
+        {
+            "name": "Udaipur City - Jaipur",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Udaipur City",
+                    "lat": 24.571293,
+                    "lon": 73.691521
+                },
+                {
+                    "name": "Rana Pratap Nagar",
+                    "lat": 24.58277,
+                    "lon": 73.72867
+                },
+                {
+                    "name": "Mavli Jn",
+                    "lat": 24.783353,
+                    "lon": 73.987019
+                },
+                {
+                    "name": "Chittaurgarh Jn",
+                    "lat": 24.87364,
+                    "lon": 74.62357
+                },
+                {
+                    "name": "Bhilwara",
+                    "lat": 25.346251,
+                    "lon": 74.636383
+                },
+                {
+                    "name": "Bijainagar",
+                    "lat": 25.926758,
+                    "lon": 74.650632
+                },
+                {
+                    "name": "Ajmer Jn",
+                    "lat": 26.456986,
+                    "lon": 74.637664
+                },
+                {
+                    "name": "Kishangarh",
+                    "lat": 26.588528,
+                    "lon": 74.872513
+                },
+                {
+                    "name": "Jaipur Jn",
+                    "lat": 26.919769,
+                    "lon": 75.788369
+                }
+            ]
+        },
+        {
+            "name": "Udaipur City - Agra Cantonment",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Udaipur City",
+                    "lat": 24.571293,
+                    "lon": 73.691521
+                },
+                {
+                    "name": "Rana Pratap Nagar",
+                    "lat": 24.58277,
+                    "lon": 73.72867
+                },
+                {
+                    "name": "Mavli Jn",
+                    "lat": 24.783353,
+                    "lon": 73.987019
+                },
+                {
+                    "name": "Chanderiya",
+                    "lat": 24.36919,
+                    "lon": 73.98661
+                },
+                {
+                    "name": "Bundi",
+                    "lat": 25.43729,
+                    "lon": 75.64594
+                },
+                {
+                    "name": "Kota Jn",
+                    "lat": 25.183333,
+                    "lon": 75.833333
+                },
+                {
+                    "name": "Sawai Madhopur",
+                    "lat": 26.0225,
+                    "lon": 76.33
+                },
+                {
+                    "name": "Gangapur City",
+                    "lat": 26.49,
+                    "lon": 76.71
+                },
+                {
+                    "name": "Agra Cantt",
+                    "lat": 27.1495,
+                    "lon": 78.0677
+                }
+            ]
+        },
+        {
+            "name": "Mumbai - Ahmedabad",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Mumbai",
+                    "lat": 19.076,
+                    "lon": 72.8777
+                },
+                {
+                    "name": "Surat",
+                    "lat": 21.1702,
+                    "lon": 72.8311
+                },
+                {
+                    "name": "Vadodara",
+                    "lat": 22.3072,
+                    "lon": 73.1812
+                },
+                {
+                    "name": "Ahmedabad",
+                    "lat": 23.0225,
+                    "lon": 72.5714
+                }
+            ]
+        },
+        {
+            "name": "Chennai - Mysuru",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Chennai",
+                    "lat": 13.0827,
+                    "lon": 80.2707
+                },
+                {
+                    "name": "Bengaluru",
+                    "lat": 12.9716,
+                    "lon": 77.5946
+                },
+                {
+                    "name": "Mysuru",
+                    "lat": 12.2958,
+                    "lon": 76.6394
+                }
+            ]
+        },
+        {
+            "name": "Howrah - Puri",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Howrah",
+                    "lat": 22.5958,
+                    "lon": 88.2636
+                },
+                {
+                    "name": "Kharagpur",
+                    "lat": 22.346,
+                    "lon": 87.3236
+                },
+                {
+                    "name": "Bhubaneswar",
+                    "lat": 20.2961,
+                    "lon": 85.8245
+                },
+                {
+                    "name": "Puri",
+                    "lat": 19.8135,
+                    "lon": 85.8312
+                }
+            ]
+        },
+        {
+            "name": "Bilaspur - Nagpur",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Bilaspur Jn",
+                    "lat": 22.09,
+                    "lon": 82.1486
+                },
+                {
+                    "name": "Raipur Jn",
+                    "lat": 21.2467,
+                    "lon": 81.6296
+                },
+                {
+                    "name": "Durg",
+                    "lat": 21.185,
+                    "lon": 81.283
+                },
+                {
+                    "name": "Gondia Jn",
+                    "lat": 21.4606,
+                    "lon": 80.1962
+                },
+                {
+                    "name": "Nagpur",
+                    "lat": 21.1466,
+                    "lon": 79.0849
+                }
+            ]
+        },
+        {
+            "name": "Rani Kamalapati - Rewa",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Rani Kamalapati",
+                    "lat": 23.2261,
+                    "lon": 77.4509
+                },
+                {
+                    "name": "Bina Jn",
+                    "lat": 24.1836,
+                    "lon": 78.2439
+                },
+                {
+                    "name": "Sagar",
+                    "lat": 23.8481,
+                    "lon": 78.7437
+                },
+                {
+                    "name": "Katni Murwara",
+                    "lat": 23.8381,
+                    "lon": 80.3993
+                },
+                {
+                    "name": "Maihar",
+                    "lat": 24.2651,
+                    "lon": 80.761
+                },
+                {
+                    "name": "Satna",
+                    "lat": 24.5822,
+                    "lon": 80.8345
+                },
+                {
+                    "name": "Rewa",
+                    "lat": 24.548,
+                    "lon": 81.2989
+                }
+            ]
+        },
+        {
+            "name": "Indore - Nagpur",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Indore Jn",
+                    "lat": 22.7196,
+                    "lon": 75.838
+                },
+                {
+                    "name": "Ujjain Jn",
+                    "lat": 23.182,
+                    "lon": 75.786
+                },
+                {
+                    "name": "Shujalpur",
+                    "lat": 23.4072,
+                    "lon": 76.7173
+                },
+                {
+                    "name": "Rani Kamalapati",
+                    "lat": 23.2261,
+                    "lon": 77.4509
+                },
+                {
+                    "name": "Itarsi Jn",
+                    "lat": 22.6122,
+                    "lon": 77.7628
+                },
+                {
+                    "name": "Betul",
+                    "lat": 21.902,
+                    "lon": 77.9046
+                },
+                {
+                    "name": "Nagpur",
+                    "lat": 21.1466,
+                    "lon": 79.0849
+                }
+            ]
+        },
+        {
+            "name": "New Jalpaiguri - Guwahati",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "New Jalpaiguri",
+                    "lat": 26.6835,
+                    "lon": 88.4281
+                },
+                {
+                    "name": "New Cooch Behar",
+                    "lat": 26.3235,
+                    "lon": 89.527
+                },
+                {
+                    "name": "New Alipurduar",
+                    "lat": 26.4853,
+                    "lon": 89.5368
+                },
+                {
+                    "name": "Kokrajhar",
+                    "lat": 26.4047,
+                    "lon": 90.2723
+                },
+                {
+                    "name": "New Bongaigaon",
+                    "lat": 26.4822,
+                    "lon": 90.6187
+                },
+                {
+                    "name": "Kamakhya",
+                    "lat": 26.1645,
+                    "lon": 91.6833
+                },
+                {
+                    "name": "Guwahati",
+                    "lat": 26.183,
+                    "lon": 91.7235
+                }
+            ]
+        },
+        {
+            "name": "Chennai - Vijayawada",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "MGR Chennai Central",
+                    "lat": 13.082,
+                    "lon": 80.275
+                },
+                {
+                    "name": "Nellore",
+                    "lat": 14.4558,
+                    "lon": 79.9864
+                },
+                {
+                    "name": "Ongole",
+                    "lat": 15.5071,
+                    "lon": 80.0499
+                },
+                {
+                    "name": "Tenali Jn",
+                    "lat": 16.241,
+                    "lon": 80.6406
+                },
+                {
+                    "name": "Vijayawada Jn",
+                    "lat": 16.509,
+                    "lon": 80.6122
+                }
+            ]
+        },
+        {
+            "name": "Mangaluru Central - Thiruvananthapuram",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Mangaluru Central",
+                    "lat": 12.8706,
+                    "lon": 74.8354
+                },
+                {
+                    "name": "Kasaragod",
+                    "lat": 12.4981,
+                    "lon": 75.0415
+                },
+                {
+                    "name": "Kannur",
+                    "lat": 11.8745,
+                    "lon": 75.3704
+                },
+                {
+                    "name": "Kozhikode",
+                    "lat": 11.2559,
+                    "lon": 75.7712
+                },
+                {
+                    "name": "Shoranur Jn",
+                    "lat": 10.7628,
+                    "lon": 76.2704
+                },
+                {
+                    "name": "Thrissur",
+                    "lat": 10.521,
+                    "lon": 76.2123
+                },
+                {
+                    "name": "Ernakulam Town",
+                    "lat": 9.9998,
+                    "lon": 76.2991
+                },
+                {
+                    "name": "Kollam Jn",
+                    "lat": 8.8845,
+                    "lon": 76.5913
+                },
+                {
+                    "name": "Thiruvananthapuram Central",
+                    "lat": 8.487,
+                    "lon": 76.9528
+                }
+            ]
+        },
+        {
+            "name": "Ahmedabad - Okha",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Ahmedabad Jn",
+                    "lat": 23.0258,
+                    "lon": 72.6029
+                },
+                {
+                    "name": "Rajkot Jn",
+                    "lat": 22.3083,
+                    "lon": 70.7984
+                },
+                {
+                    "name": "Hapa",
+                    "lat": 22.43,
+                    "lon": 70.073
+                },
+                {
+                    "name": "Jamnagar",
+                    "lat": 22.4691,
+                    "lon": 70.0589
+                },
+                {
+                    "name": "Dwarka",
+                    "lat": 22.2394,
+                    "lon": 68.9677
+                },
+                {
+                    "name": "Okha",
+                    "lat": 22.4712,
+                    "lon": 69.083
+                }
+            ]
+        },
+        {
+            "name": "New Jalpaiguri - Patna",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "New Jalpaiguri",
+                    "lat": 26.6835,
+                    "lon": 88.4281
+                },
+                {
+                    "name": "Kishanganj",
+                    "lat": 26.1026,
+                    "lon": 87.9523
+                },
+                {
+                    "name": "Katihar Jn",
+                    "lat": 25.5486,
+                    "lon": 87.5699
+                },
+                {
+                    "name": "Begusarai",
+                    "lat": 25.4169,
+                    "lon": 86.1339
+                },
+                {
+                    "name": "Patna Jn",
+                    "lat": 25.6129,
+                    "lon": 85.1415
+                }
+            ]
+        },
+        {
+            "name": "Varanasi - New Delhi",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Varanasi Jn",
+                    "lat": 25.3207,
+                    "lon": 82.9739
+                },
+                {
+                    "name": "Prayagraj Jn",
+                    "lat": 25.4373,
+                    "lon": 81.8441
+                },
+                {
+                    "name": "Kanpur Central",
+                    "lat": 26.4499,
+                    "lon": 80.3502
+                },
+                {
+                    "name": "Aligarh Jn",
+                    "lat": 27.8974,
+                    "lon": 78.0579
+                },
+                {
+                    "name": "New Delhi",
+                    "lat": 28.644,
+                    "lon": 77.22
+                }
+            ]
+        },
+        {
+            "name": "SMVD Katra - New Delhi",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "SMVD Katra",
+                    "lat": 32.9909,
+                    "lon": 74.9345
+                },
+                {
+                    "name": "Jammu Tawi",
+                    "lat": 32.7186,
+                    "lon": 74.8656
+                },
+                {
+                    "name": "Pathankot Cantt",
+                    "lat": 32.2734,
+                    "lon": 75.602
+                },
+                {
+                    "name": "Ludhiana Jn",
+                    "lat": 30.912,
+                    "lon": 75.8573
+                },
+                {
+                    "name": "Ambala Cantt",
+                    "lat": 30.3783,
+                    "lon": 76.7791
+                },
+                {
+                    "name": "New Delhi",
+                    "lat": 28.644,
+                    "lon": 77.22
+                }
+            ]
+        },
+        {
+            "name": "Kasaragod - Thiruvananthapuram",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Kasaragod",
+                    "lat": 12.4981,
+                    "lon": 75.0415
+                },
+                {
+                    "name": "Kannur",
+                    "lat": 11.8745,
+                    "lon": 75.3704
+                },
+                {
+                    "name": "Kozhikode",
+                    "lat": 11.2559,
+                    "lon": 75.7712
+                },
+                {
+                    "name": "Shoranur Jn",
+                    "lat": 10.7628,
+                    "lon": 76.2704
+                },
+                {
+                    "name": "Thrissur",
+                    "lat": 10.521,
+                    "lon": 76.2123
+                },
+                {
+                    "name": "Ernakulam Town",
+                    "lat": 9.9998,
+                    "lon": 76.2991
+                },
+                {
+                    "name": "Kottayam",
+                    "lat": 9.5907,
+                    "lon": 76.5211
+                },
+                {
+                    "name": "Kollam Jn",
+                    "lat": 8.8845,
+                    "lon": 76.5913
+                },
+                {
+                    "name": "Thiruvananthapuram Central",
+                    "lat": 8.487,
+                    "lon": 76.9528
+                }
+            ]
+        },
+        {
+            "name": "Mangaluru Central - Madgaon",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Mangaluru Central",
+                    "lat": 12.8706,
+                    "lon": 74.8354
+                },
+                {
+                    "name": "Udupi",
+                    "lat": 13.3371,
+                    "lon": 74.7452
+                },
+                {
+                    "name": "Kundapura",
+                    "lat": 13.633,
+                    "lon": 74.69
+                },
+                {
+                    "name": "Karwar",
+                    "lat": 14.8138,
+                    "lon": 74.1269
+                },
+                {
+                    "name": "Thivim",
+                    "lat": 15.6492,
+                    "lon": 73.8214
+                },
+                {
+                    "name": "Madgaon",
+                    "lat": 15.275,
+                    "lon": 73.9461
+                }
+            ]
+        },
+        {
+            "name": "Jalna - Mumbai CSMT",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Jalna",
+                    "lat": 19.841,
+                    "lon": 75.8839
+                },
+                {
+                    "name": "Aurangabad",
+                    "lat": 19.8762,
+                    "lon": 75.3369
+                },
+                {
+                    "name": "Manmad Jn",
+                    "lat": 20.2487,
+                    "lon": 74.4804
+                },
+                {
+                    "name": "Nashik Road",
+                    "lat": 19.9773,
+                    "lon": 73.7898
+                },
+                {
+                    "name": "Kalyan Jn",
+                    "lat": 19.243,
+                    "lon": 73.1301
+                },
+                {
+                    "name": "Thane",
+                    "lat": 19.1842,
+                    "lon": 72.9792
+                },
+                {
+                    "name": "Dadar",
+                    "lat": 19.0184,
+                    "lon": 72.8425
+                },
+                {
+                    "name": "Mumbai CSMT",
+                    "lat": 18.9406,
+                    "lon": 72.8356
+                }
+            ]
+        },
+        {
+            "name": "Kalaburagi - SMVT Bengaluru",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Kalaburagi",
+                    "lat": 17.329,
+                    "lon": 76.8333
+                },
+                {
+                    "name": "Raichur",
+                    "lat": 16.198,
+                    "lon": 77.326
+                },
+                {
+                    "name": "Gooty Jn",
+                    "lat": 15.1395,
+                    "lon": 77.8245
+                },
+                {
+                    "name": "Anantapur",
+                    "lat": 14.6819,
+                    "lon": 77.5994
+                },
+                {
+                    "name": "Dharmavaram Jn",
+                    "lat": 14.4141,
+                    "lon": 77.7168
+                },
+                {
+                    "name": "Yelahanka",
+                    "lat": 13.1004,
+                    "lon": 77.5963
+                },
+                {
+                    "name": "SMVT Bengaluru",
+                    "lat": 13.01,
+                    "lon": 77.6289
+                }
+            ]
+        },
+        {
+            "name": "Mysuru - Chennai Central",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Mysuru Jn",
+                    "lat": 12.309,
+                    "lon": 76.6537
+                },
+                {
+                    "name": "KSR Bengaluru City",
+                    "lat": 12.9779,
+                    "lon": 77.5711
+                },
+                {
+                    "name": "Krishnarajapuram",
+                    "lat": 13.0051,
+                    "lon": 77.6959
+                },
+                {
+                    "name": "Jolarpettai Jn",
+                    "lat": 12.566,
+                    "lon": 78.5732
+                },
+                {
+                    "name": "Katpadi Jn",
+                    "lat": 12.969,
+                    "lon": 79.1378
+                },
+                {
+                    "name": "MGR Chennai Central",
+                    "lat": 13.082,
+                    "lon": 80.275
+                }
+            ]
+        },
+        {
+            "name": "Ranchi - Varanasi",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Ranchi",
+                    "lat": 23.3625,
+                    "lon": 85.321
+                },
+                {
+                    "name": "Muri Jn",
+                    "lat": 23.3646,
+                    "lon": 85.8667
+                },
+                {
+                    "name": "Bokaro Steel City",
+                    "lat": 23.6229,
+                    "lon": 86.0544
+                },
+                {
+                    "name": "Chandrapura",
+                    "lat": 23.6421,
+                    "lon": 86.107
+                },
+                {
+                    "name": "Koderma Jn",
+                    "lat": 24.4515,
+                    "lon": 85.6042
+                },
+                {
+                    "name": "Gaya Jn",
+                    "lat": 24.8138,
+                    "lon": 84.9869
+                },
+                {
+                    "name": "DDU Jn",
+                    "lat": 25.267,
+                    "lon": 83.1199
+                },
+                {
+                    "name": "Varanasi Jn",
+                    "lat": 25.3207,
+                    "lon": 82.9739
+                }
+            ]
+        },
+        {
+            "name": "Bhubaneswar - Visakhapatnam",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Bhubaneswar",
+                    "lat": 20.2697,
+                    "lon": 85.8392
+                },
+                {
+                    "name": "Khurda Road Jn",
+                    "lat": 20.1545,
+                    "lon": 85.6397
+                },
+                {
+                    "name": "Brahmapur",
+                    "lat": 19.3225,
+                    "lon": 84.796
+                },
+                {
+                    "name": "Palasa",
+                    "lat": 18.77,
+                    "lon": 84.41
+                },
+                {
+                    "name": "Srikakulam Road",
+                    "lat": 18.32,
+                    "lon": 83.895
+                },
+                {
+                    "name": "Vizianagaram",
+                    "lat": 18.116,
+                    "lon": 83.42
+                },
+                {
+                    "name": "Visakhapatnam",
+                    "lat": 17.722,
+                    "lon": 83.304
+                }
+            ]
+        },
+        {
+            "name": "Durg - Visakhapatnam",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Durg",
+                    "lat": 21.185,
+                    "lon": 81.283
+                },
+                {
+                    "name": "Raipur Jn",
+                    "lat": 21.2467,
+                    "lon": 81.6296
+                },
+                {
+                    "name": "Titlagarh",
+                    "lat": 20.2903,
+                    "lon": 83.1665
+                },
+                {
+                    "name": "Rayagada",
+                    "lat": 19.1711,
+                    "lon": 83.4191
+                },
+                {
+                    "name": "Vizianagaram",
+                    "lat": 18.116,
+                    "lon": 83.42
+                },
+                {
+                    "name": "Visakhapatnam",
+                    "lat": 17.722,
+                    "lon": 83.304
+                }
+            ]
+        },
+        {
+            "name": "Tatanagar - Patna",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Tatanagar Jn",
+                    "lat": 22.7843,
+                    "lon": 86.2029
+                },
+                {
+                    "name": "Purulia Jn",
+                    "lat": 23.331,
+                    "lon": 86.374
+                },
+                {
+                    "name": "Asansol Jn",
+                    "lat": 23.683,
+                    "lon": 86.9558
+                },
+                {
+                    "name": "Dhanbad Jn",
+                    "lat": 23.801,
+                    "lon": 86.43
+                },
+                {
+                    "name": "Gaya Jn",
+                    "lat": 24.8138,
+                    "lon": 84.9869
+                },
+                {
+                    "name": "Patna Jn",
+                    "lat": 25.6129,
+                    "lon": 85.1415
+                }
+            ]
+        },
+        {
+            "name": "Tatanagar - Brahmapur",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Tatanagar Jn",
+                    "lat": 22.7843,
+                    "lon": 86.2029
+                },
+                {
+                    "name": "Rourkela",
+                    "lat": 22.259,
+                    "lon": 84.8536
+                },
+                {
+                    "name": "Jharsuguda Jn",
+                    "lat": 21.8679,
+                    "lon": 84.0306
+                },
+                {
+                    "name": "Sambalpur",
+                    "lat": 21.466,
+                    "lon": 83.975
+                },
+                {
+                    "name": "Angul",
+                    "lat": 20.8377,
+                    "lon": 85.0105
+                },
+                {
+                    "name": "Khurda Road Jn",
+                    "lat": 20.1545,
+                    "lon": 85.6397
+                },
+                {
+                    "name": "Brahmapur",
+                    "lat": 19.3225,
+                    "lon": 84.796
+                }
+            ]
+        },
+        {
+            "name": "Howrah - Rourkela",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Howrah Jn",
+                    "lat": 22.58,
+                    "lon": 88.3426
+                },
+                {
+                    "name": "Kharagpur Jn",
+                    "lat": 22.3368,
+                    "lon": 87.3217
+                },
+                {
+                    "name": "Tatanagar Jn",
+                    "lat": 22.7843,
+                    "lon": 86.2029
+                },
+                {
+                    "name": "Rourkela",
+                    "lat": 22.259,
+                    "lon": 84.8536
+                }
+            ]
+        },
+        {
+            "name": "Howrah - Gaya",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Howrah Jn",
+                    "lat": 22.58,
+                    "lon": 88.3426
+                },
+                {
+                    "name": "Barddhaman Jn",
+                    "lat": 23.255,
+                    "lon": 87.861
+                },
+                {
+                    "name": "Durgapur",
+                    "lat": 23.548,
+                    "lon": 87.321
+                },
+                {
+                    "name": "Asansol Jn",
+                    "lat": 23.683,
+                    "lon": 86.9558
+                },
+                {
+                    "name": "Dhanbad Jn",
+                    "lat": 23.801,
+                    "lon": 86.43
+                },
+                {
+                    "name": "Parasnath",
+                    "lat": 23.978,
+                    "lon": 86.051
+                },
+                {
+                    "name": "Gaya Jn",
+                    "lat": 24.8138,
+                    "lon": 84.9869
+                }
+            ]
+        },
+        {
+            "name": "Howrah - Bhagalpur",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Howrah Jn",
+                    "lat": 22.58,
+                    "lon": 88.3426
+                },
+                {
+                    "name": "Barddhaman Jn",
+                    "lat": 23.255,
+                    "lon": 87.861
+                },
+                {
+                    "name": "Katwa Jn",
+                    "lat": 23.65,
+                    "lon": 88.1194
+                },
+                {
+                    "name": "Azimganj Jn",
+                    "lat": 24.228,
+                    "lon": 88.2453
+                },
+                {
+                    "name": "Malda Town",
+                    "lat": 25.0319,
+                    "lon": 88.1426
+                },
+                {
+                    "name": "New Farakka Jn",
+                    "lat": 24.8075,
+                    "lon": 88.134
+                },
+                {
+                    "name": "Bhagalpur",
+                    "lat": 25.2666,
+                    "lon": 86.9824
+                }
+            ]
+        },
+        {
+            "name": "SSS Hubballi - Pune",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "SSS Hubballi",
+                    "lat": 15.3647,
+                    "lon": 75.1239
+                },
+                {
+                    "name": "Belagavi",
+                    "lat": 15.8497,
+                    "lon": 74.4977
+                },
+                {
+                    "name": "Miraj Jn",
+                    "lat": 16.824,
+                    "lon": 74.6409
+                },
+                {
+                    "name": "Satara",
+                    "lat": 17.6859,
+                    "lon": 74.0009
+                },
+                {
+                    "name": "Pune Jn",
+                    "lat": 18.5167,
+                    "lon": 73.857
+                }
+            ]
+        },
+        {
+            "name": "SCSMT Kolhapur - Pune",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "SCSMT Kolhapur",
+                    "lat": 16.7,
+                    "lon": 74.2333
+                },
+                {
+                    "name": "Miraj Jn",
+                    "lat": 16.824,
+                    "lon": 74.6409
+                },
+                {
+                    "name": "Satara",
+                    "lat": 17.6859,
+                    "lon": 74.0009
+                },
+                {
+                    "name": "Pune Jn",
+                    "lat": 18.5167,
+                    "lon": 73.857
+                }
+            ]
+        },
+        {
+            "name": "Sabarmati - Veraval",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Sabarmati Jn",
+                    "lat": 23.0793,
+                    "lon": 72.5639
+                },
+                {
+                    "name": "Ahmedabad Jn",
+                    "lat": 23.0258,
+                    "lon": 72.6029
+                },
+                {
+                    "name": "Botad Jn",
+                    "lat": 22.1698,
+                    "lon": 71.6664
+                },
+                {
+                    "name": "Dhola Jn",
+                    "lat": 21.6856,
+                    "lon": 71.4934
+                },
+                {
+                    "name": "Dhasa Jn",
+                    "lat": 21.7411,
+                    "lon": 71.4149
+                },
+                {
+                    "name": "Junagadh Jn",
+                    "lat": 21.5222,
+                    "lon": 70.4579
+                },
+                {
+                    "name": "Veraval",
+                    "lat": 20.9057,
+                    "lon": 70.3648
+                }
+            ]
+        },
+        {
+            "name": "Mumbai Central - Gandhinagar Capital",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Mumbai Central",
+                    "lat": 19.0696,
+                    "lon": 72.8205
+                },
+                {
+                    "name": "Borivali",
+                    "lat": 19.2307,
+                    "lon": 72.8567
+                },
+                {
+                    "name": "Vapi",
+                    "lat": 20.3893,
+                    "lon": 72.9106
+                },
+                {
+                    "name": "Surat",
+                    "lat": 21.1702,
+                    "lon": 72.8311
+                },
+                {
+                    "name": "Vadodara Jn",
+                    "lat": 22.3072,
+                    "lon": 73.1812
+                },
+                {
+                    "name": "Ahmedabad Jn",
+                    "lat": 23.0225,
+                    "lon": 72.5714
+                },
+                {
+                    "name": "Gandhinagar Capital",
+                    "lat": 23.2156,
+                    "lon": 72.6369
+                }
+            ]
+        },
+        {
+            "name": "Howrah - New Jalpaiguri",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Howrah Jn",
+                    "lat": 22.5958,
+                    "lon": 88.2636
+                },
+                {
+                    "name": "Barddhaman Jn",
+                    "lat": 23.2324,
+                    "lon": 87.8615
+                },
+                {
+                    "name": "Bolpur Shantiniketan",
+                    "lat": 23.6615,
+                    "lon": 87.6983
+                },
+                {
+                    "name": "Rampurhat",
+                    "lat": 24.177,
+                    "lon": 87.7875
+                },
+                {
+                    "name": "Malda Town",
+                    "lat": 25.0319,
+                    "lon": 88.1426
+                },
+                {
+                    "name": "Kishanganj",
+                    "lat": 26.1026,
+                    "lon": 87.9523
+                },
+                {
+                    "name": "New Jalpaiguri",
+                    "lat": 26.6835,
+                    "lon": 88.4281
+                }
+            ]
+        },
+        {
+            "name": "Mumbai CSMT - Solapur",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Mumbai CSMT",
+                    "lat": 18.9406,
+                    "lon": 72.8356
+                },
+                {
+                    "name": "Dadar",
+                    "lat": 19.0184,
+                    "lon": 72.8425
+                },
+                {
+                    "name": "Kalyan Jn",
+                    "lat": 19.235,
+                    "lon": 73.1301
+                },
+                {
+                    "name": "Pune Jn",
+                    "lat": 18.5204,
+                    "lon": 73.8567
+                },
+                {
+                    "name": "Daund Jn",
+                    "lat": 18.4621,
+                    "lon": 74.5833
+                },
+                {
+                    "name": "Solapur",
+                    "lat": 17.6599,
+                    "lon": 75.9064
+                }
+            ]
+        },
+        {
+            "name": "Mumbai CSMT - Sainagar Shirdi",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Mumbai CSMT",
+                    "lat": 18.9406,
+                    "lon": 72.8356
+                },
+                {
+                    "name": "Dadar",
+                    "lat": 19.0184,
+                    "lon": 72.8425
+                },
+                {
+                    "name": "Kalyan Jn",
+                    "lat": 19.235,
+                    "lon": 73.1301
+                },
+                {
+                    "name": "Nashik Road",
+                    "lat": 19.9773,
+                    "lon": 73.7898
+                },
+                {
+                    "name": "Manmad Jn",
+                    "lat": 20.2487,
+                    "lon": 74.4804
+                },
+                {
+                    "name": "Sainagar Shirdi",
+                    "lat": 19.7515,
+                    "lon": 74.4768
+                }
+            ]
+        },
+        {
+            "name": "Rani Kamalapati - Hazrat Nizamuddin",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Rani Kamalapati",
+                    "lat": 23.2261,
+                    "lon": 77.4509
+                },
+                {
+                    "name": "Bhopal Jn",
+                    "lat": 23.2599,
+                    "lon": 77.4126
+                },
+                {
+                    "name": "Bina Jn",
+                    "lat": 24.1836,
+                    "lon": 78.2439
+                },
+                {
+                    "name": "Jhansi Jn",
+                    "lat": 25.4484,
+                    "lon": 78.5685
+                },
+                {
+                    "name": "Gwalior Jn",
+                    "lat": 26.2183,
+                    "lon": 78.1828
+                },
+                {
+                    "name": "Agra Cantt",
+                    "lat": 27.1495,
+                    "lon": 78.0677
+                },
+                {
+                    "name": "Hazrat Nizamuddin",
+                    "lat": 28.5905,
+                    "lon": 77.2507
+                }
+            ]
+        },
+        {
+            "name": "Secunderabad - Tirupati",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Secunderabad Jn",
+                    "lat": 17.4337,
+                    "lon": 78.5016
+                },
+                {
+                    "name": "Nalgonda",
+                    "lat": 17.05,
+                    "lon": 79.2667
+                },
+                {
+                    "name": "Guntur Jn",
+                    "lat": 16.3067,
+                    "lon": 80.4365
+                },
+                {
+                    "name": "Ongole",
+                    "lat": 15.5057,
+                    "lon": 80.0499
+                },
+                {
+                    "name": "Nellore",
+                    "lat": 14.4426,
+                    "lon": 79.9865
+                },
+                {
+                    "name": "Gudur Jn",
+                    "lat": 14.1507,
+                    "lon": 79.8513
+                },
+                {
+                    "name": "Renigunta Jn",
+                    "lat": 13.6355,
+                    "lon": 79.5119
+                },
+                {
+                    "name": "Tirupati",
+                    "lat": 13.6288,
+                    "lon": 79.4192
+                }
+            ]
+        },
+        {
+            "name": "Chennai Central - Coimbatore",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "MGR Chennai Central",
+                    "lat": 13.0827,
+                    "lon": 80.2707
+                },
+                {
+                    "name": "Arakkonam Jn",
+                    "lat": 13.0847,
+                    "lon": 79.6701
+                },
+                {
+                    "name": "Katpadi Jn",
+                    "lat": 12.9693,
+                    "lon": 79.1378
+                },
+                {
+                    "name": "Jolarpettai Jn",
+                    "lat": 12.5706,
+                    "lon": 78.5732
+                },
+                {
+                    "name": "Salem Jn",
+                    "lat": 11.6643,
+                    "lon": 78.146
+                },
+                {
+                    "name": "Erode Jn",
+                    "lat": 11.341,
+                    "lon": 77.7172
+                },
+                {
+                    "name": "Tiruppur",
+                    "lat": 11.1085,
+                    "lon": 77.3411
+                },
+                {
+                    "name": "Coimbatore Jn",
+                    "lat": 10.9925,
+                    "lon": 76.9614
+                }
+            ]
+        },
+        {
+            "name": "Mumbai CSMT - Madgaon",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Mumbai CSMT",
+                    "lat": 18.9406,
+                    "lon": 72.8356
+                },
+                {
+                    "name": "Dadar",
+                    "lat": 19.0184,
+                    "lon": 72.8425
+                },
+                {
+                    "name": "Thane",
+                    "lat": 19.1842,
+                    "lon": 72.9792
+                },
+                {
+                    "name": "Panvel",
+                    "lat": 18.9894,
+                    "lon": 73.1175
+                },
+                {
+                    "name": "Roha",
+                    "lat": 18.4363,
+                    "lon": 73.1139
+                },
+                {
+                    "name": "Khed",
+                    "lat": 17.7189,
+                    "lon": 73.3969
+                },
+                {
+                    "name": "Ratnagiri",
+                    "lat": 16.9944,
+                    "lon": 73.3002
+                },
+                {
+                    "name": "Kankavli",
+                    "lat": 16.2667,
+                    "lon": 73.7
+                },
+                {
+                    "name": "Thivim",
+                    "lat": 15.6492,
+                    "lon": 73.8214
+                },
+                {
+                    "name": "Madgaon",
+                    "lat": 15.275,
+                    "lon": 73.9461
+                }
+            ]
+        },
+        {
+            "name": "Patna - Ranchi",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Patna Jn",
+                    "lat": 25.6129,
+                    "lon": 85.1415
+                },
+                {
+                    "name": "Gaya Jn",
+                    "lat": 24.7969,
+                    "lon": 85.0033
+                },
+                {
+                    "name": "Koderma Jn",
+                    "lat": 24.4515,
+                    "lon": 85.6042
+                },
+                {
+                    "name": "Hazaribagh Road",
+                    "lat": 24.0081,
+                    "lon": 85.6203
+                },
+                {
+                    "name": "Barkakana Jn",
+                    "lat": 23.8833,
+                    "lon": 85.4667
+                },
+                {
+                    "name": "Ranchi",
+                    "lat": 23.3441,
+                    "lon": 85.3096
+                }
+            ]
+        },
+        {
+            "name": "KSR Bengaluru - Dharwad",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "KSR Bengaluru",
+                    "lat": 12.9716,
+                    "lon": 77.5946
+                },
+                {
+                    "name": "Yesvantpur Jn",
+                    "lat": 13.0223,
+                    "lon": 77.5511
+                },
+                {
+                    "name": "Tumakuru",
+                    "lat": 13.3392,
+                    "lon": 77.114
+                },
+                {
+                    "name": "Arsikere Jn",
+                    "lat": 13.3139,
+                    "lon": 76.2569
+                },
+                {
+                    "name": "Davangere",
+                    "lat": 14.4644,
+                    "lon": 75.9218
+                },
+                {
+                    "name": "Haveri",
+                    "lat": 14.7951,
+                    "lon": 75.4037
+                },
+                {
+                    "name": "SSS Hubballi",
+                    "lat": 15.3647,
+                    "lon": 75.1239
+                },
+                {
+                    "name": "Dharwad",
+                    "lat": 15.4589,
+                    "lon": 75.0078
+                }
+            ]
+        },
+        {
+            "name": "Chennai Egmore - Tirunelveli",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Chennai Egmore",
+                    "lat": 13.0732,
+                    "lon": 80.2609
+                },
+                {
+                    "name": "Tambaram",
+                    "lat": 12.9249,
+                    "lon": 80.1
+                },
+                {
+                    "name": "Chengalpattu Jn",
+                    "lat": 12.6819,
+                    "lon": 79.9888
+                },
+                {
+                    "name": "Villupuram Jn",
+                    "lat": 11.9401,
+                    "lon": 79.493
+                },
+                {
+                    "name": "Virudhachalam Jn",
+                    "lat": 11.5183,
+                    "lon": 79.3256
+                },
+                {
+                    "name": "Trichy Jn",
+                    "lat": 10.8155,
+                    "lon": 78.6897
+                },
+                {
+                    "name": "Dindigul Jn",
+                    "lat": 10.3673,
+                    "lon": 77.9803
+                },
+                {
+                    "name": "Madurai Jn",
+                    "lat": 9.9252,
+                    "lon": 78.1198
+                },
+                {
+                    "name": "Virudunagar Jn",
+                    "lat": 9.5804,
+                    "lon": 77.9624
+                },
+                {
+                    "name": "Kovilpatti",
+                    "lat": 9.1719,
+                    "lon": 77.8687
+                },
+                {
+                    "name": "Tirunelveli",
+                    "lat": 8.7139,
+                    "lon": 77.7567
+                }
+            ]
+        },
+        {
+            "name": "Kacheguda - Yesvantpur",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Kacheguda",
+                    "lat": 17.3935,
+                    "lon": 78.5021
+                },
+                {
+                    "name": "Mahabubnagar",
+                    "lat": 16.7488,
+                    "lon": 78.0035
+                },
+                {
+                    "name": "Kurnool City",
+                    "lat": 15.8281,
+                    "lon": 78.0373
+                },
+                {
+                    "name": "Dhone Jn",
+                    "lat": 15.3949,
+                    "lon": 77.8715
+                },
+                {
+                    "name": "Gooty Jn",
+                    "lat": 15.1395,
+                    "lon": 77.8245
+                },
+                {
+                    "name": "Anantapur",
+                    "lat": 14.6819,
+                    "lon": 77.5994
+                },
+                {
+                    "name": "Dharmavaram Jn",
+                    "lat": 14.4141,
+                    "lon": 77.7168
+                },
+                {
+                    "name": "Hindupur",
+                    "lat": 13.8281,
+                    "lon": 77.4914
+                },
+                {
+                    "name": "Yesvantpur Jn",
+                    "lat": 13.0223,
+                    "lon": 77.5511
+                }
+            ]
+        },
+        {
+            "name": "Patna - Howrah",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Patna Jn",
+                    "lat": 25.6129,
+                    "lon": 85.1415
+                },
+                {
+                    "name": "Ara Jn",
+                    "lat": 25.5565,
+                    "lon": 84.6625
+                },
+                {
+                    "name": "Buxar",
+                    "lat": 25.5647,
+                    "lon": 83.9777
+                },
+                {
+                    "name": "Pt DD Upadhyaya Jn",
+                    "lat": 25.2819,
+                    "lon": 83.1195
+                },
+                {
+                    "name": "Gaya Jn",
+                    "lat": 24.7969,
+                    "lon": 85.0033
+                },
+                {
+                    "name": "Dhanbad Jn",
+                    "lat": 23.7957,
+                    "lon": 86.4304
+                },
+                {
+                    "name": "Asansol Jn",
+                    "lat": 23.6833,
+                    "lon": 86.9558
+                },
+                {
+                    "name": "Barddhaman Jn",
+                    "lat": 23.2324,
+                    "lon": 87.8615
+                },
+                {
+                    "name": "Howrah Jn",
+                    "lat": 22.5958,
+                    "lon": 88.2636
+                }
+            ]
+        },
+        {
+            "name": "Ranchi - Howrah",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Ranchi",
+                    "lat": 23.3441,
+                    "lon": 85.3096
+                },
+                {
+                    "name": "Muri Jn",
+                    "lat": 23.3646,
+                    "lon": 85.8667
+                },
+                {
+                    "name": "Bokaro Steel City",
+                    "lat": 23.6229,
+                    "lon": 86.0544
+                },
+                {
+                    "name": "Chandrapura",
+                    "lat": 23.6421,
+                    "lon": 86.107
+                },
+                {
+                    "name": "Dhanbad Jn",
+                    "lat": 23.7957,
+                    "lon": 86.4304
+                },
+                {
+                    "name": "Asansol Jn",
+                    "lat": 23.6833,
+                    "lon": 86.9558
+                },
+                {
+                    "name": "Barddhaman Jn",
+                    "lat": 23.2324,
+                    "lon": 87.8615
+                },
+                {
+                    "name": "Howrah Jn",
+                    "lat": 22.5958,
+                    "lon": 88.2636
+                }
+            ]
+        },
+        {
+            "name": "Puri - Rourkela",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Puri",
+                    "lat": 19.8135,
+                    "lon": 85.8312
+                },
+                {
+                    "name": "Khurda Road Jn",
+                    "lat": 20.1829,
+                    "lon": 85.8397
+                },
+                {
+                    "name": "Bhubaneswar",
+                    "lat": 20.2961,
+                    "lon": 85.8245
+                },
+                {
+                    "name": "Cuttack Jn",
+                    "lat": 20.4625,
+                    "lon": 85.883
+                },
+                {
+                    "name": "Dhenkanal",
+                    "lat": 20.6667,
+                    "lon": 85.5833
+                },
+                {
+                    "name": "Angul",
+                    "lat": 20.8377,
+                    "lon": 85.0105
+                },
+                {
+                    "name": "Sambalpur",
+                    "lat": 21.4669,
+                    "lon": 83.9751
+                },
+                {
+                    "name": "Jharsuguda Jn",
+                    "lat": 21.8679,
+                    "lon": 84.0306
+                },
+                {
+                    "name": "Rourkela",
+                    "lat": 22.2604,
+                    "lon": 84.8536
+                }
+            ]
+        },
+        {
+            "name": "Visakhapatnam - Secunderabad",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Visakhapatnam",
+                    "lat": 17.6868,
+                    "lon": 83.2185
+                },
+                {
+                    "name": "Duvvada",
+                    "lat": 17.6167,
+                    "lon": 83.2
+                },
+                {
+                    "name": "Rajahmundry",
+                    "lat": 17.0005,
+                    "lon": 81.804
+                },
+                {
+                    "name": "Eluru",
+                    "lat": 16.7107,
+                    "lon": 81.0952
+                },
+                {
+                    "name": "Vijayawada Jn",
+                    "lat": 16.5087,
+                    "lon": 80.6185
+                },
+                {
+                    "name": "Guntur Jn",
+                    "lat": 16.3067,
+                    "lon": 80.4365
+                },
+                {
+                    "name": "Nalgonda",
+                    "lat": 17.05,
+                    "lon": 79.2667
+                },
+                {
+                    "name": "Secunderabad Jn",
+                    "lat": 17.4337,
+                    "lon": 78.5016
+                }
+            ]
+        },
+        {
+            "name": "Bhagalpur - Dumka - Howrah",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Bhagalpur",
+                    "lat": 25.2425,
+                    "lon": 86.9842
+                },
+                {
+                    "name": "Jamalpur Jn",
+                    "lat": 25.3116,
+                    "lon": 86.495
+                },
+                {
+                    "name": "Kiul Jn",
+                    "lat": 25.1719,
+                    "lon": 86.0977
+                },
+                {
+                    "name": "Dumka",
+                    "lat": 24.2677,
+                    "lon": 87.2484
+                },
+                {
+                    "name": "Jasidih Jn",
+                    "lat": 24.5124,
+                    "lon": 86.6444
+                },
+                {
+                    "name": "Madhupur Jn",
+                    "lat": 24.2667,
+                    "lon": 86.3667
+                },
+                {
+                    "name": "Asansol Jn",
+                    "lat": 23.6833,
+                    "lon": 86.9558
+                },
+                {
+                    "name": "Barddhaman Jn",
+                    "lat": 23.2324,
+                    "lon": 87.8615
+                },
+                {
+                    "name": "Howrah Jn",
+                    "lat": 22.5958,
+                    "lon": 88.2636
+                }
+            ]
+        },
+        {
+            "name": "Deoghar - Varanasi",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Deoghar",
+                    "lat": 24.4764,
+                    "lon": 86.7005
+                },
+                {
+                    "name": "Jasidih Jn",
+                    "lat": 24.5124,
+                    "lon": 86.6444
+                },
+                {
+                    "name": "Kiul Jn",
+                    "lat": 25.1719,
+                    "lon": 86.0977
+                },
+                {
+                    "name": "Nawadah",
+                    "lat": 24.8853,
+                    "lon": 85.544
+                },
+                {
+                    "name": "Gaya Jn",
+                    "lat": 24.7969,
+                    "lon": 85.0033
+                },
+                {
+                    "name": "Sasaram",
+                    "lat": 24.9649,
+                    "lon": 84.036
+                },
+                {
+                    "name": "Pt DD Upadhyaya Jn",
+                    "lat": 25.2819,
+                    "lon": 83.1195
+                },
+                {
+                    "name": "Varanasi Jn",
+                    "lat": 25.3226,
+                    "lon": 82.9882
+                }
+            ]
+        },
+        {
+            "name": "Bengaluru Cantt - Coimbatore",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Bengaluru Cantt",
+                    "lat": 12.9914,
+                    "lon": 77.5987
+                },
+                {
+                    "name": "Krishnarajapuram",
+                    "lat": 13.0051,
+                    "lon": 77.6959
+                },
+                {
+                    "name": "Hosur",
+                    "lat": 12.7409,
+                    "lon": 77.8253
+                },
+                {
+                    "name": "Dharmapuri",
+                    "lat": 12.1211,
+                    "lon": 78.1582
+                },
+                {
+                    "name": "Salem Jn",
+                    "lat": 11.6643,
+                    "lon": 78.146
+                },
+                {
+                    "name": "Erode Jn",
+                    "lat": 11.341,
+                    "lon": 77.7172
+                },
+                {
+                    "name": "Tiruppur",
+                    "lat": 11.1085,
+                    "lon": 77.3411
+                },
+                {
+                    "name": "Coimbatore Jn",
+                    "lat": 10.9925,
+                    "lon": 76.9614
+                }
+            ]
+        },
+        {
+            "name": "Surat - Hapa",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Surat",
+                    "lat": 21.1702,
+                    "lon": 72.8311
+                },
+                {
+                    "name": "Bharuch Jn",
+                    "lat": 21.7051,
+                    "lon": 72.9959
+                },
+                {
+                    "name": "Vadodara Jn",
+                    "lat": 22.3072,
+                    "lon": 73.1812
+                },
+                {
+                    "name": "Ahmedabad Jn",
+                    "lat": 23.0225,
+                    "lon": 72.5714
+                },
+                {
+                    "name": "Viramgam Jn",
+                    "lat": 23.125,
+                    "lon": 72.0556
+                },
+                {
+                    "name": "Surendranagar",
+                    "lat": 22.7281,
+                    "lon": 71.6486
+                },
+                {
+                    "name": "Rajkot Jn",
+                    "lat": 22.3039,
+                    "lon": 70.8022
+                },
+                {
+                    "name": "Hapa",
+                    "lat": 22.43,
+                    "lon": 70.073
+                }
+            ]
+        },
+        {
+            "name": "Visakhapatnam - New Delhi",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Visakhapatnam",
+                    "lat": 17.6868,
+                    "lon": 83.2185
+                },
+                {
+                    "name": "Vizianagaram Jn",
+                    "lat": 18.1167,
+                    "lon": 83.4167
+                },
+                {
+                    "name": "Brahmapur",
+                    "lat": 19.3225,
+                    "lon": 84.796
+                },
+                {
+                    "name": "Khurda Road Jn",
+                    "lat": 20.1829,
+                    "lon": 85.8397
+                },
+                {
+                    "name": "Bhubaneswar",
+                    "lat": 20.2961,
+                    "lon": 85.8245
+                },
+                {
+                    "name": "Cuttack Jn",
+                    "lat": 20.4625,
+                    "lon": 85.883
+                },
+                {
+                    "name": "Sambalpur",
+                    "lat": 21.4669,
+                    "lon": 83.9751
+                },
+                {
+                    "name": "Rourkela",
+                    "lat": 22.2604,
+                    "lon": 84.8536
+                },
+                {
+                    "name": "Tatanagar Jn",
+                    "lat": 22.7843,
+                    "lon": 86.2029
+                },
+                {
+                    "name": "Bokaro Steel City",
+                    "lat": 23.6229,
+                    "lon": 86.0544
+                },
+                {
+                    "name": "Gaya Jn",
+                    "lat": 24.7969,
+                    "lon": 85.0033
+                },
+                {
+                    "name": "Pt DD Upadhyaya Jn",
+                    "lat": 25.2819,
+                    "lon": 83.1195
+                },
+                {
+                    "name": "Prayagraj Jn",
+                    "lat": 25.4373,
+                    "lon": 81.8441
+                },
+                {
+                    "name": "Kanpur Central",
+                    "lat": 26.4499,
+                    "lon": 80.3502
+                },
+                {
+                    "name": "New Delhi",
+                    "lat": 28.644,
+                    "lon": 77.22
+                }
+            ]
+        },
+        {
+            "name": "Yesvantpur - Korba",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Yesvantpur Jn",
+                    "lat": 13.0223,
+                    "lon": 77.5511
+                },
+                {
+                    "name": "Tumakuru",
+                    "lat": 13.3392,
+                    "lon": 77.114
+                },
+                {
+                    "name": "Arsikere Jn",
+                    "lat": 13.3139,
+                    "lon": 76.2569
+                },
+                {
+                    "name": "Davangere",
+                    "lat": 14.4644,
+                    "lon": 75.9218
+                },
+                {
+                    "name": "Haveri",
+                    "lat": 14.7951,
+                    "lon": 75.4037
+                },
+                {
+                    "name": "SSS Hubballi",
+                    "lat": 15.3647,
+                    "lon": 75.1239
+                },
+                {
+                    "name": "Belagavi",
+                    "lat": 15.8497,
+                    "lon": 74.4977
+                },
+                {
+                    "name": "Miraj Jn",
+                    "lat": 16.824,
+                    "lon": 74.6409
+                },
+                {
+                    "name": "Solapur",
+                    "lat": 17.6599,
+                    "lon": 75.9064
+                },
+                {
+                    "name": "Gulbarga",
+                    "lat": 17.3297,
+                    "lon": 76.8343
+                },
+                {
+                    "name": "Vikarabad Jn",
+                    "lat": 17.3369,
+                    "lon": 77.9061
+                },
+                {
+                    "name": "Secunderabad Jn",
+                    "lat": 17.4337,
+                    "lon": 78.5016
+                },
+                {
+                    "name": "Kazipet Jn",
+                    "lat": 17.9833,
+                    "lon": 79.5167
+                },
+                {
+                    "name": "Balharshah",
+                    "lat": 19.8465,
+                    "lon": 79.3249
+                },
+                {
+                    "name": "Nagpur",
+                    "lat": 21.1466,
+                    "lon": 79.0849
+                },
+                {
+                    "name": "Gondia Jn",
+                    "lat": 21.4606,
+                    "lon": 80.1962
+                },
+                {
+                    "name": "Durg",
+                    "lat": 21.185,
+                    "lon": 81.283
+                },
+                {
+                    "name": "Raipur Jn",
+                    "lat": 21.2467,
+                    "lon": 81.6296
+                },
+                {
+                    "name": "Bilaspur Jn",
+                    "lat": 22.09,
+                    "lon": 82.1486
+                },
+                {
+                    "name": "Korba",
+                    "lat": 22.3595,
+                    "lon": 82.7501
+                }
+            ]
+        },
+        {
+            "name": "Pune - Ajni",
+            "status": "current",
+            "stations": [
+                {
+                    "name": "Pune Jn",
+                    "lat": 18.5204,
+                    "lon": 73.8567
+                },
+                {
+                    "name": "Daund Jn",
+                    "lat": 18.4621,
+                    "lon": 74.5833
+                },
+                {
+                    "name": "Ahmednagar",
+                    "lat": 19.0948,
+                    "lon": 74.748
+                },
+                {
+                    "name": "Kopargaon",
+                    "lat": 19.8827,
+                    "lon": 74.4761
+                },
+                {
+                    "name": "Manmad Jn",
+                    "lat": 20.2487,
+                    "lon": 74.4804
+                },
+                {
+                    "name": "Jalgaon Jn",
+                    "lat": 21.0077,
+                    "lon": 75.5626
+                },
+                {
+                    "name": "Bhusaval Jn",
+                    "lat": 21.0458,
+                    "lon": 75.7852
+                },
+                {
+                    "name": "Akola Jn",
+                    "lat": 20.7002,
+                    "lon": 77.0082
+                },
+                {
+                    "name": "Badnera Jn",
+                    "lat": 20.8561,
+                    "lon": 77.7472
+                },
+                {
+                    "name": "Wardha Jn",
+                    "lat": 20.7453,
+                    "lon": 78.6022
+                },
+                {
+                    "name": "Ajni",
+                    "lat": 21.0942,
+                    "lon": 79.0647
+                }
+            ]
+        }
+    ]
+}

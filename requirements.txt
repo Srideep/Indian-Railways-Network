@@ -1,0 +1,8 @@
+plotly
+pandas
+pandas-geojson
+geopandas
+shapely
+pyproj
+fiona
+streamlit  # only if you want the dashboard

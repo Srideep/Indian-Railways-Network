@@ -1,0 +1,8 @@
+segment_id,segment_name,corridor,distance_km,est_time_min,est_time_hh:mm
+5,Lakhnadon → Raipur,Lakhnadon–Raipur Expressway,273.95027377551014,182.63351585034007,03:03
+agra_gwalior_expy,Agra–Gwalior Expressway,Agra–Gwalior Expressway,114.49527743949739,76.33018495966493,01:16
+dme_delhi_vadodara,Delhi NCR (Sohna) → Vadodara,Delhi–Vadodara,875.6875121597568,525.4125072958541,08:45
+dme_vadodara_mumbai,Vadodara → Mumbai (JNPT),Vadodara–Mumbai,379.81199023071076,239.88125698781735,03:60
+gwl_lakh_expy,Gwalior → Jhansi → UP/MP Border -> Lakhnadon,Gwalior–Lakhnadon Expressway,437.78611625361367,291.8574108357425,04:52
+raipur_vizag_expy,Raipur → Visakhapatnam,Raipur–Vizag Expressway (NH-130CD),506.617279379436,337.744852919624,05:38
+yamuna_expy,Yamuna Expressway,Delhi–Agra (Yamuna Expressway),192.77420902805287,128.51613935203525,02:09

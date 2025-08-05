@@ -1,0 +1,50 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dme_delhi_vadodara",
+        "name": "Delhi NCR (Sohna) → Vadodara",
+        "corridor": "Delhi–Vadodara",
+        "source": "simplified waypoints"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [77.0674, 28.2472],  // Sohna (NCR start)
+          [76.7280, 27.9906],  // Nuh / Firozpur Jhirka
+          [76.3151, 27.6300],  // Alwar bypass
+          [75.7873, 26.9124],  // Jaipur
+          [76.0200, 26.1160],  // Tonk fringe
+          [75.6260, 25.7650],  // Bundi area
+          [75.8648, 25.2138],  // Kota
+          [75.3870, 24.6300],  // Jhalawar belt
+          [75.0403, 23.3303],  // Ratlam
+          [74.4890, 22.6019],  // Dahod
+          [73.1812, 22.3072]   // Vadodara
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "dme_vadodara_mumbai",
+        "name": "Vadodara → Mumbai (JNPT)",
+        "corridor": "Vadodara–Mumbai",
+        "source": "simplified waypoints"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [73.1812, 22.3072],  // Vadodara
+          [72.9330, 21.7000],  // Bharuch/Ankleshwar
+          [72.8311, 21.1702],  // Surat
+          [72.8895, 20.4637],  // Valsad/Navsari
+          [72.8740, 19.9898],  // Dahanu/Palghar
+          [72.9480, 18.9467]   // JNPT / Navi Mumbai end
+        ]
+      }
+    }
+  ]
+}
