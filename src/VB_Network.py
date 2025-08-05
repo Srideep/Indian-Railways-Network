@@ -32,7 +32,7 @@ map_specs = {
     "output_file_name": "vande_bharat_routes_map.png",
     "output_dpi": 500
 }
-filename = 'route_data.json'
+filename = 'data/route_data.json'
 try:    
     with open(filename, 'r', encoding='utf-8') as file:
         route_data = json.load(file)
