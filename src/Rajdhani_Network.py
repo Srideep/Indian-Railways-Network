@@ -35,7 +35,8 @@ map_specs = {
 filename = '../data/rajdhani_route_data.json'
 try:    
     with open(filename, 'r', encoding='utf-8') as file:
-        route_data = json.load(file)
+        raw_data = json.load(file)
+        route_data = raw_data['rajdhani_express_routes']
     print(f"✅ Successfully loaded {len(route_data['routes'])} routes from {filename}")
 
 except FileNotFoundError:
