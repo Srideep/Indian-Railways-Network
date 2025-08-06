@@ -29,10 +29,10 @@ map_specs = {
         "legend_position": "lower right",
         "grid_lines": False
     },
-    "output_file_name": "rajdhani_exp_routes_map.png",
+    "output_file_name": "../media/rajdhani_exp_routes_map.png",
     "output_dpi": 500
 }
-filename = 'rajdhani_route_data.json'
+filename = '../data/rajdhani_route_data.json'
 try:    
     with open(filename, 'r', encoding='utf-8') as file:
         route_data = json.load(file)
