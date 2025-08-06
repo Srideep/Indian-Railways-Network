@@ -18,7 +18,7 @@ import os
 map_specs = {
     #"map_title": "Shatabdi Express Network",
     "map_title": "Jan Shatabdi Express Network",
-    "current_route_color": "#CC0000",    
+    "current_route_color": "#227AB4",    
     "route_line_width": 2,
     "station_marker_color": "#FFA500",
     "station_marker_size": 50,
@@ -31,6 +31,7 @@ map_specs = {
         "grid_lines": False
     },
     "output_file_name": "../media/Jan_Shatabdi_exp_routes_map.png",
+    #"output_file_name": "../media/Shatabdi_exp_routes_map.png",    
     "output_dpi": 500
 }
 filename = '../data/Shatabdi_route_data.json'
