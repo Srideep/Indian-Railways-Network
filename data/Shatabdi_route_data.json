@@ -1,0 +1,2434 @@
+{
+  "shatabdi_express_routes": {
+    "last_updated": "2025-08",
+    "total_routes": 21,
+    "description": "Premium day trains with fully air-conditioned coaches and onboard catering",
+    "routes": [
+      {
+        "train_number": "12001/12002",
+        "name": "Rani Kamalapati - New Delhi Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 150,
+        "fastest_shatabdi": true,
+        "stations": [
+          {
+            "name": "Rani Kamalapati",
+            "lat": 23.2599,
+            "lon": 77.4126
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685
+          },
+          {
+            "name": "Gwalior",
+            "lat": 26.2183,
+            "lon": 78.1828
+          },
+          {
+            "name": "Agra Cantt",
+            "lat": 27.1767,
+            "lon": 78.0081
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12003/12004",
+        "name": "New Delhi - Lucknow Swarn Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Ghaziabad",
+            "lat": 28.6692,
+            "lon": 77.4538
+          },
+          {
+            "name": "Aligarh Jn",
+            "lat": 27.8974,
+            "lon": 78.0880
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "Lucknow",
+            "lat": 26.8467,
+            "lon": 80.9462
+          }
+        ]
+      },
+      {
+        "train_number": "12005/12006",
+        "name": "New Delhi - Kalka Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Panipat Jn",
+            "lat": 29.3909,
+            "lon": 76.9635
+          },
+          {
+            "name": "Kurukshetra Jn",
+            "lat": 29.9695,
+            "lon": 76.8783
+          },
+          {
+            "name": "Ambala Cantt",
+            "lat": 30.3759,
+            "lon": 76.7796
+          },
+          {
+            "name": "Chandigarh",
+            "lat": 30.7333,
+            "lon": 76.7794
+          },
+          {
+            "name": "Kalka",
+            "lat": 30.8399,
+            "lon": 76.9387
+          }
+        ]
+      },
+      {
+        "train_number": "12007/12008",
+        "name": "Chennai Central - Mysuru Shatabdi",
+        "status": "current",
+        "frequency": "Except Wed",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Chennai Central",
+            "lat": 13.0827,
+            "lon": 80.2707
+          },
+          {
+            "name": "Katpadi Jn",
+            "lat": 12.9693,
+            "lon": 79.1378
+          },
+          {
+            "name": "Jolarpettai",
+            "lat": 12.5706,
+            "lon": 78.5732
+          },
+          {
+            "name": "Bangalore City",
+            "lat": 12.9716,
+            "lon": 77.5946
+          },
+          {
+            "name": "Mandya",
+            "lat": 12.5218,
+            "lon": 76.8951
+          },
+          {
+            "name": "Mysuru",
+            "lat": 12.2958,
+            "lon": 76.6394
+          }
+        ]
+      },
+      {
+        "train_number": "12009/12010",
+        "name": "Mumbai Central - Ahmedabad Shatabdi",
+        "status": "current",
+        "frequency": "Except Sun",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Mumbai Central",
+            "lat": 18.9690,
+            "lon": 72.8205
+          },
+          {
+            "name": "Borivali",
+            "lat": 19.2307,
+            "lon": 72.8567
+          },
+          {
+            "name": "Vapi",
+            "lat": 20.3893,
+            "lon": 72.9106
+          },
+          {
+            "name": "Surat",
+            "lat": 21.1702,
+            "lon": 72.8311
+          },
+          {
+            "name": "Bharuch Jn",
+            "lat": 21.7051,
+            "lon": 72.9959
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812
+          },
+          {
+            "name": "Anand Jn",
+            "lat": 22.5645,
+            "lon": 72.9289
+          },
+          {
+            "name": "Nadiad Jn",
+            "lat": 22.6939,
+            "lon": 72.8627
+          },
+          {
+            "name": "Ahmedabad Jn",
+            "lat": 23.0225,
+            "lon": 72.5714
+          }
+        ]
+      },
+      {
+        "train_number": "12011/12012",
+        "name": "New Delhi - Kalka Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Ambala Cantt",
+            "lat": 30.3759,
+            "lon": 76.7796
+          },
+          {
+            "name": "Chandigarh",
+            "lat": 30.7333,
+            "lon": 76.7794
+          },
+          {
+            "name": "Kalka",
+            "lat": 30.8399,
+            "lon": 76.9387
+          }
+        ]
+      },
+      {
+        "train_number": "12013/12014",
+        "name": "New Delhi - Amritsar Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Ambala Cantt",
+            "lat": 30.3759,
+            "lon": 76.7796
+          },
+          {
+            "name": "Ludhiana Jn",
+            "lat": 30.9120,
+            "lon": 75.8542
+          },
+          {
+            "name": "Jalandhar City",
+            "lat": 31.3260,
+            "lon": 75.5762
+          },
+          {
+            "name": "Beas",
+            "lat": 31.5383,
+            "lon": 75.3011
+          },
+          {
+            "name": "Amritsar Jn",
+            "lat": 31.6330,
+            "lon": 74.8723
+          }
+        ]
+      },
+      {
+        "train_number": "12015/12016",
+        "name": "New Delhi - Ajmer Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Gurgaon",
+            "lat": 28.4595,
+            "lon": 77.0266
+          },
+          {
+            "name": "Rewari",
+            "lat": 28.1820,
+            "lon": 76.6186
+          },
+          {
+            "name": "Alwar",
+            "lat": 27.5530,
+            "lon": 76.6346
+          },
+          {
+            "name": "Jaipur",
+            "lat": 26.9124,
+            "lon": 75.7873
+          },
+          {
+            "name": "Kishangarh",
+            "lat": 26.5900,
+            "lon": 74.8556
+          },
+          {
+            "name": "Ajmer Jn",
+            "lat": 26.4499,
+            "lon": 74.6399
+          }
+        ]
+      },
+      {
+        "train_number": "12017/12018",
+        "name": "New Delhi - Dehradun Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Ghaziabad",
+            "lat": 28.6692,
+            "lon": 77.4538
+          },
+          {
+            "name": "Meerut City",
+            "lat": 28.9845,
+            "lon": 77.7064
+          },
+          {
+            "name": "Muzaffarnagar",
+            "lat": 29.4727,
+            "lon": 77.7085
+          },
+          {
+            "name": "Saharanpur",
+            "lat": 29.9680,
+            "lon": 77.5552
+          },
+          {
+            "name": "Roorkee",
+            "lat": 29.8543,
+            "lon": 77.8880
+          },
+          {
+            "name": "Haridwar Jn",
+            "lat": 29.9457,
+            "lon": 78.1642
+          },
+          {
+            "name": "Dehradun",
+            "lat": 30.3165,
+            "lon": 78.0322
+          }
+        ]
+      },
+      {
+        "train_number": "12019/12020",
+        "name": "Howrah - Ranchi Shatabdi",
+        "status": "current",
+        "frequency": "Except Sun",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Howrah Jn",
+            "lat": 22.5836,
+            "lon": 88.3426
+          },
+          {
+            "name": "Kharagpur Jn",
+            "lat": 22.3397,
+            "lon": 87.3238
+          },
+          {
+            "name": "Tatanagar Jn",
+            "lat": 22.7925,
+            "lon": 86.2029
+          },
+          {
+            "name": "Chakradharpur",
+            "lat": 22.7000,
+            "lon": 85.6289
+          },
+          {
+            "name": "Ranchi",
+            "lat": 23.3441,
+            "lon": 85.3096
+          }
+        ]
+      },
+      {
+        "train_number": "12025/12026",
+        "name": "Pune - Secunderabad Shatabdi",
+        "status": "current",
+        "frequency": "Except Tue",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Pune Jn",
+            "lat": 18.5204,
+            "lon": 73.8567
+          },
+          {
+            "name": "Daund Jn",
+            "lat": 18.4621,
+            "lon": 74.5833
+          },
+          {
+            "name": "Ahmednagar",
+            "lat": 19.0948,
+            "lon": 74.7380
+          },
+          {
+            "name": "Kopargaon",
+            "lat": 19.8827,
+            "lon": 74.4761
+          },
+          {
+            "name": "Manmad Jn",
+            "lat": 20.2515,
+            "lon": 74.4379
+          },
+          {
+            "name": "Aurangabad",
+            "lat": 19.8762,
+            "lon": 75.3433
+          },
+          {
+            "name": "Parbhani Jn",
+            "lat": 19.2687,
+            "lon": 76.7746
+          },
+          {
+            "name": "Nanded",
+            "lat": 19.1383,
+            "lon": 77.3210
+          },
+          {
+            "name": "Nizamabad",
+            "lat": 18.6725,
+            "lon": 78.0941
+          },
+          {
+            "name": "Secunderabad Jn",
+            "lat": 17.4337,
+            "lon": 78.5016
+          }
+        ]
+      },
+      {
+        "train_number": "12027/12028",
+        "name": "Chennai - Bangalore Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Chennai Central",
+            "lat": 13.0827,
+            "lon": 80.2707
+          },
+          {
+            "name": "Arakkonam Jn",
+            "lat": 13.0847,
+            "lon": 79.6701
+          },
+          {
+            "name": "Katpadi Jn",
+            "lat": 12.9693,
+            "lon": 79.1378
+          },
+          {
+            "name": "Jolarpettai",
+            "lat": 12.5706,
+            "lon": 78.5732
+          },
+          {
+            "name": "Krishnarajapuram",
+            "lat": 13.0283,
+            "lon": 77.6821
+          },
+          {
+            "name": "Bangalore City",
+            "lat": 12.9716,
+            "lon": 77.5946
+          }
+        ]
+      },
+      {
+        "train_number": "12029/12030",
+        "name": "New Delhi - Amritsar Swarn Shatabdi",
+        "status": "current",
+        "frequency": "Except Thu",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Ambala Cantt",
+            "lat": 30.3759,
+            "lon": 76.7796
+          },
+          {
+            "name": "Ludhiana Jn",
+            "lat": 30.9120,
+            "lon": 75.8542
+          },
+          {
+            "name": "Phagwara Jn",
+            "lat": 31.2240,
+            "lon": 75.7708
+          },
+          {
+            "name": "Jalandhar City",
+            "lat": 31.3260,
+            "lon": 75.5762
+          },
+          {
+            "name": "Amritsar Jn",
+            "lat": 31.6330,
+            "lon": 74.8723
+          }
+        ]
+      },
+      {
+        "train_number": "12033/12034",
+        "name": "Kanpur - New Delhi Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 140,
+        "stations": [
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "Etawah",
+            "lat": 26.7855,
+            "lon": 79.0239
+          },
+          {
+            "name": "Tundla Jn",
+            "lat": 27.2046,
+            "lon": 78.2366
+          },
+          {
+            "name": "Aligarh Jn",
+            "lat": 27.8974,
+            "lon": 78.0880
+          },
+          {
+            "name": "Ghaziabad",
+            "lat": 28.6692,
+            "lon": 77.4538
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12035/12036",
+        "name": "Jaipur - Agra Fort Shatabdi",
+        "status": "current",
+        "frequency": "Except Fri",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Jaipur",
+            "lat": 26.9124,
+            "lon": 75.7873
+          },
+          {
+            "name": "Gandhinagar Jaipur",
+            "lat": 26.8852,
+            "lon": 75.8094
+          },
+          {
+            "name": "Dausa",
+            "lat": 26.8880,
+            "lon": 76.3365
+          },
+          {
+            "name": "Bandikui Jn",
+            "lat": 27.0506,
+            "lon": 76.5712
+          },
+          {
+            "name": "Bharatpur Jn",
+            "lat": 27.2074,
+            "lon": 77.5026
+          },
+          {
+            "name": "Achhnera Jn",
+            "lat": 27.1784,
+            "lon": 77.7613
+          },
+          {
+            "name": "Agra Fort",
+            "lat": 27.1795,
+            "lon": 78.0211
+          }
+        ]
+      },
+      {
+        "train_number": "12037/12038",
+        "name": "Bhopal - Indore Shatabdi",
+        "status": "current",
+        "frequency": "Except Sun",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126
+          },
+          {
+            "name": "Sehore",
+            "lat": 23.2032,
+            "lon": 77.0844
+          },
+          {
+            "name": "Shajapur",
+            "lat": 23.4273,
+            "lon": 76.2730
+          },
+          {
+            "name": "Ujjain Jn",
+            "lat": 23.1765,
+            "lon": 75.7885
+          },
+          {
+            "name": "Dewas",
+            "lat": 22.9676,
+            "lon": 76.0534
+          },
+          {
+            "name": "Indore Jn",
+            "lat": 22.7196,
+            "lon": 75.8577
+          }
+        ]
+      },
+      {
+        "train_number": "12039/12040",
+        "name": "Kathgodam - New Delhi Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Kathgodam",
+            "lat": 29.2852,
+            "lon": 79.5285
+          },
+          {
+            "name": "Haldwani",
+            "lat": 29.2183,
+            "lon": 79.5130
+          },
+          {
+            "name": "Lalkuan Jn",
+            "lat": 29.0419,
+            "lon": 79.5578
+          },
+          {
+            "name": "Rudrapur City",
+            "lat": 28.9875,
+            "lon": 79.4039
+          },
+          {
+            "name": "Rampur",
+            "lat": 28.8162,
+            "lon": 79.0082
+          },
+          {
+            "name": "Moradabad",
+            "lat": 28.8388,
+            "lon": 78.7769
+          },
+          {
+            "name": "Gajraula Jn",
+            "lat": 28.8446,
+            "lon": 78.2396
+          },
+          {
+            "name": "Ghaziabad",
+            "lat": 28.6692,
+            "lon": 77.4538
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12041/12042",
+        "name": "Howrah - New Jalpaiguri Shatabdi",
+        "status": "current",
+        "frequency": "Except Sun",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Howrah Jn",
+            "lat": 22.5836,
+            "lon": 88.3426
+          },
+          {
+            "name": "Barddhaman Jn",
+            "lat": 23.2324,
+            "lon": 87.8615
+          },
+          {
+            "name": "Bolpur Shantiniketan",
+            "lat": 23.6615,
+            "lon": 87.6983
+          },
+          {
+            "name": "Rampurhat",
+            "lat": 24.1770,
+            "lon": 87.7875
+          },
+          {
+            "name": "Malda Town",
+            "lat": 25.0319,
+            "lon": 88.1426
+          },
+          {
+            "name": "Kishanganj",
+            "lat": 26.1026,
+            "lon": 87.9523
+          },
+          {
+            "name": "New Jalpaiguri",
+            "lat": 26.6835,
+            "lon": 88.4281
+          }
+        ]
+      },
+      {
+        "train_number": "12043/12044",
+        "name": "Moga - New Delhi Shatabdi",
+        "status": "current",
+        "frequency": "Except Sun",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Moga",
+            "lat": 30.8160,
+            "lon": 75.1714
+          },
+          {
+            "name": "Jagraon",
+            "lat": 30.7875,
+            "lon": 75.4792
+          },
+          {
+            "name": "Ludhiana Jn",
+            "lat": 30.9120,
+            "lon": 75.8542
+          },
+          {
+            "name": "Dhuri Jn",
+            "lat": 30.3682,
+            "lon": 75.8679
+          },
+          {
+            "name": "Sangrur",
+            "lat": 30.2458,
+            "lon": 75.8421
+          },
+          {
+            "name": "Patiala",
+            "lat": 30.3398,
+            "lon": 76.3869
+          },
+          {
+            "name": "Rajpura Jn",
+            "lat": 30.4840,
+            "lon": 76.5938
+          },
+          {
+            "name": "Ambala Cantt",
+            "lat": 30.3759,
+            "lon": 76.7796
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          }
+        ]
+      },
+      {
+        "train_number": "12045/12046",
+        "name": "New Delhi - Chandigarh Shatabdi",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Ambala Cantt",
+            "lat": 30.3759,
+            "lon": 76.7796
+          },
+          {
+            "name": "Chandigarh",
+            "lat": 30.7333,
+            "lon": 76.7794
+          }
+        ]
+      },
+      {
+        "train_number": "12047/12048",
+        "name": "New Delhi - Firozpur Shatabdi",
+        "status": "current",
+        "frequency": "Except Sun",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Rohtak Jn",
+            "lat": 28.8955,
+            "lon": 76.6066
+          },
+          {
+            "name": "Jind Jn",
+            "lat": 29.3159,
+            "lon": 76.3186
+          },
+          {
+            "name": "Narwana Jn",
+            "lat": 29.5983,
+            "lon": 76.1271
+          },
+          {
+            "name": "Jakhal Jn",
+            "lat": 29.7966,
+            "lon": 75.8216
+          },
+          {
+            "name": "Mansa",
+            "lat": 29.9986,
+            "lon": 75.3938
+          },
+          {
+            "name": "Bathinda Jn",
+            "lat": 30.2110,
+            "lon": 74.9455
+          },
+          {
+            "name": "Kot Kapura",
+            "lat": 30.5819,
+            "lon": 74.8100
+          },
+          {
+            "name": "Firozpur Cantt",
+            "lat": 30.9331,
+            "lon": 74.6225
+          }
+        ]
+      }
+    ],
+    "features": [
+      "Day trains - return same day",
+      "Fully air-conditioned",
+      "No sleeping berths, only seats",
+      "Classes: Anubhuti (EA), Executive (EC), AC Chair Car (CC)",
+      "Onboard catering included in ticket",
+      "Reserved seats only - no unreserved accommodation",
+      "Maximum speed: 110-150 km/h",
+      "Entertainment systems in select trains",
+      "Higher priority after Rajdhani Express"
+    ]
+  },
+  "jan_shatabdi_express_routes": {
+    "last_updated": "2025-08",
+    "total_routes": 23,
+    "description": "Affordable day trains with both AC and non-AC coaches for common passengers",
+    "routes": [
+      {
+        "train_number": "12021/12022",
+        "name": "Howrah - Barbil Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Howrah Jn",
+            "lat": 22.5836,
+            "lon": 88.3426
+          },
+          {
+            "name": "Kharagpur Jn",
+            "lat": 22.3397,
+            "lon": 87.3238
+          },
+          {
+            "name": "Tatanagar Jn",
+            "lat": 22.7925,
+            "lon": 86.2029
+          },
+          {
+            "name": "Chakradharpur",
+            "lat": 22.7000,
+            "lon": 85.6289
+          },
+          {
+            "name": "Rourkela",
+            "lat": 22.2604,
+            "lon": 84.8536
+          },
+          {
+            "name": "Rajgangpur",
+            "lat": 22.2242,
+            "lon": 84.6414
+          },
+          {
+            "name": "Barbil",
+            "lat": 22.1019,
+            "lon": 85.3900
+          }
+        ]
+      },
+      {
+        "train_number": "12023/12024",
+        "name": "Howrah - Patna Jan Shatabdi",
+        "status": "current",
+        "frequency": "Except Sun",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Howrah Jn",
+            "lat": 22.5836,
+            "lon": 88.3426
+          },
+          {
+            "name": "Barddhaman Jn",
+            "lat": 23.2324,
+            "lon": 87.8615
+          },
+          {
+            "name": "Durgapur",
+            "lat": 23.5204,
+            "lon": 87.3119
+          },
+          {
+            "name": "Asansol Jn",
+            "lat": 23.6833,
+            "lon": 86.9833
+          },
+          {
+            "name": "Dhanbad Jn",
+            "lat": 23.7957,
+            "lon": 86.4304
+          },
+          {
+            "name": "Koderma",
+            "lat": 24.4678,
+            "lon": 85.5936
+          },
+          {
+            "name": "Gaya Jn",
+            "lat": 24.7955,
+            "lon": 84.9994
+          },
+          {
+            "name": "Patna Jn",
+            "lat": 25.6093,
+            "lon": 85.1376
+          }
+        ]
+      },
+      {
+        "train_number": "12051/12052",
+        "name": "Dadar - Madgaon Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Dadar Central",
+            "lat": 19.0144,
+            "lon": 72.8479
+          },
+          {
+            "name": "Thane",
+            "lat": 19.2183,
+            "lon": 72.9781
+          },
+          {
+            "name": "Panvel",
+            "lat": 18.9894,
+            "lon": 73.1175
+          },
+          {
+            "name": "Roha",
+            "lat": 18.4363,
+            "lon": 73.1139
+          },
+          {
+            "name": "Khed",
+            "lat": 17.7189,
+            "lon": 73.3969
+          },
+          {
+            "name": "Chiplun",
+            "lat": 17.5333,
+            "lon": 73.5167
+          },
+          {
+            "name": "Ratnagiri",
+            "lat": 16.9944,
+            "lon": 73.3002
+          },
+          {
+            "name": "Kankavli",
+            "lat": 16.2667,
+            "lon": 73.7000
+          },
+          {
+            "name": "Kudal",
+            "lat": 16.0119,
+            "lon": 73.6889
+          },
+          {
+            "name": "Sawantwadi Road",
+            "lat": 15.9033,
+            "lon": 73.8200
+          },
+          {
+            "name": "Thivim",
+            "lat": 15.6492,
+            "lon": 73.8214
+          },
+          {
+            "name": "Madgaon",
+            "lat": 15.2759,
+            "lon": 73.9558
+          }
+        ]
+      },
+      {
+        "train_number": "12053/12054",
+        "name": "Haridwar - Amritsar Jan Shatabdi",
+        "status": "current",
+        "frequency": "Except Thu",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Haridwar Jn",
+            "lat": 29.9457,
+            "lon": 78.1642
+          },
+          {
+            "name": "Roorkee",
+            "lat": 29.8543,
+            "lon": 77.8880
+          },
+          {
+            "name": "Saharanpur",
+            "lat": 29.9680,
+            "lon": 77.5552
+          },
+          {
+            "name": "Yamunanagar-Jagadhri",
+            "lat": 30.1290,
+            "lon": 77.2880
+          },
+          {
+            "name": "Kurukshetra Jn",
+            "lat": 29.9695,
+            "lon": 76.8783
+          },
+          {
+            "name": "Ambala Cantt",
+            "lat": 30.3759,
+            "lon": 76.7796
+          },
+          {
+            "name": "Sirhind Jn",
+            "lat": 30.6422,
+            "lon": 76.3835
+          },
+          {
+            "name": "Ludhiana Jn",
+            "lat": 30.9120,
+            "lon": 75.8542
+          },
+          {
+            "name": "Phagwara Jn",
+            "lat": 31.2240,
+            "lon": 75.7708
+          },
+          {
+            "name": "Jalandhar City",
+            "lat": 31.3260,
+            "lon": 75.5762
+          },
+          {
+            "name": "Beas",
+            "lat": 31.5383,
+            "lon": 75.3011
+          },
+          {
+            "name": "Amritsar Jn",
+            "lat": 31.6330,
+            "lon": 74.8723
+          }
+        ]
+      },
+      {
+        "train_number": "12055/12056",
+        "name": "New Delhi - Dehradun Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Ghaziabad",
+            "lat": 28.6692,
+            "lon": 77.4538
+          },
+          {
+            "name": "Meerut City",
+            "lat": 28.9845,
+            "lon": 77.7064
+          },
+          {
+            "name": "Muzaffarnagar",
+            "lat": 29.4727,
+            "lon": 77.7085
+          },
+          {
+            "name": "Saharanpur",
+            "lat": 29.9680,
+            "lon": 77.5552
+          },
+          {
+            "name": "Roorkee",
+            "lat": 29.8543,
+            "lon": 77.8880
+          },
+          {
+            "name": "Haridwar Jn",
+            "lat": 29.9457,
+            "lon": 78.1642
+          },
+          {
+            "name": "Dehradun",
+            "lat": 30.3165,
+            "lon": 78.0322
+          }
+        ]
+      },
+      {
+        "train_number": "12057/12058",
+        "name": "New Delhi - Una Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Ambala Cantt",
+            "lat": 30.3759,
+            "lon": 76.7796
+          },
+          {
+            "name": "Chandigarh",
+            "lat": 30.7333,
+            "lon": 76.7794
+          },
+          {
+            "name": "Anandpur Sahib",
+            "lat": 31.2385,
+            "lon": 76.5027
+          },
+          {
+            "name": "Nangal Dam",
+            "lat": 31.3853,
+            "lon": 76.3707
+          },
+          {
+            "name": "Una Himachal",
+            "lat": 31.4685,
+            "lon": 76.2708
+          }
+        ]
+      },
+      {
+        "train_number": "12059/12060",
+        "name": "Kota - Hazrat Nizamuddin Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Kota Jn",
+            "lat": 25.2138,
+            "lon": 75.8648
+          },
+          {
+            "name": "Sawai Madhopur",
+            "lat": 26.0173,
+            "lon": 76.3556
+          },
+          {
+            "name": "Gangapur City",
+            "lat": 26.4862,
+            "lon": 76.7172
+          },
+          {
+            "name": "Hindaun City",
+            "lat": 26.7291,
+            "lon": 77.0342
+          },
+          {
+            "name": "Bharatpur Jn",
+            "lat": 27.2074,
+            "lon": 77.5026
+          },
+          {
+            "name": "Mathura Jn",
+            "lat": 27.4924,
+            "lon": 77.6737
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512
+          }
+        ]
+      },
+      {
+        "train_number": "12061/12062",
+        "name": "Habibganj - Jabalpur Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Habibganj",
+            "lat": 23.2296,
+            "lon": 77.4376
+          },
+          {
+            "name": "Hoshangabad",
+            "lat": 22.7474,
+            "lon": 77.7272
+          },
+          {
+            "name": "Itarsi Jn",
+            "lat": 22.6122,
+            "lon": 77.7628
+          },
+          {
+            "name": "Harda",
+            "lat": 22.3414,
+            "lon": 77.0952
+          },
+          {
+            "name": "Timarni",
+            "lat": 22.3944,
+            "lon": 77.2756
+          },
+          {
+            "name": "Banapura",
+            "lat": 22.4494,
+            "lon": 77.5669
+          },
+          {
+            "name": "Pipariya",
+            "lat": 22.7596,
+            "lon": 78.3515
+          },
+          {
+            "name": "Gadarwara",
+            "lat": 22.9236,
+            "lon": 78.7849
+          },
+          {
+            "name": "Narsinghpur",
+            "lat": 22.9499,
+            "lon": 79.1923
+          },
+          {
+            "name": "Jabalpur",
+            "lat": 23.1815,
+            "lon": 79.9864
+          }
+        ]
+      },
+      {
+        "train_number": "12063/12064",
+        "name": "Ajmer - Hazrat Nizamuddin Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Ajmer Jn",
+            "lat": 26.4499,
+            "lon": 74.6399
+          },
+          {
+            "name": "Kishangarh",
+            "lat": 26.5900,
+            "lon": 74.8556
+          },
+          {
+            "name": "Phulera Jn",
+            "lat": 26.8734,
+            "lon": 75.2369
+          },
+          {
+            "name": "Jaipur",
+            "lat": 26.9124,
+            "lon": 75.7873
+          },
+          {
+            "name": "Gandhinagar Jaipur",
+            "lat": 26.8852,
+            "lon": 75.8094
+          },
+          {
+            "name": "Dausa",
+            "lat": 26.8880,
+            "lon": 76.3365
+          },
+          {
+            "name": "Bandikui Jn",
+            "lat": 27.0506,
+            "lon": 76.5712
+          },
+          {
+            "name": "Alwar",
+            "lat": 27.5530,
+            "lon": 76.6346
+          },
+          {
+            "name": "Khairthal",
+            "lat": 27.9853,
+            "lon": 76.7958
+          },
+          {
+            "name": "Rewari",
+            "lat": 28.1820,
+            "lon": 76.6186
+          },
+          {
+            "name": "Gurgaon",
+            "lat": 28.4595,
+            "lon": 77.0266
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512
+          }
+        ]
+      },
+      {
+        "train_number": "12065/12066",
+        "name": "Hazrat Nizamuddin - Dehradun Jan Shatabdi",
+        "status": "current",
+        "frequency": "Except Mon",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512
+          },
+          {
+            "name": "Ghaziabad",
+            "lat": 28.6692,
+            "lon": 77.4538
+          },
+          {
+            "name": "Meerut City",
+            "lat": 28.9845,
+            "lon": 77.7064
+          },
+          {
+            "name": "Muzaffarnagar",
+            "lat": 29.4727,
+            "lon": 77.7085
+          },
+          {
+            "name": "Saharanpur",
+            "lat": 29.9680,
+            "lon": 77.5552
+          },
+          {
+            "name": "Roorkee",
+            "lat": 29.8543,
+            "lon": 77.8880
+          },
+          {
+            "name": "Haridwar Jn",
+            "lat": 29.9457,
+            "lon": 78.1642
+          },
+          {
+            "name": "Dehradun",
+            "lat": 30.3165,
+            "lon": 78.0322
+          }
+        ]
+      },
+      {
+        "train_number": "12067/12068",
+        "name": "Jorhat - Guwahati Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Jorhat",
+            "lat": 26.7465,
+            "lon": 94.2026
+          },
+          {
+            "name": "Mariani Jn",
+            "lat": 26.6558,
+            "lon": 94.4468
+          },
+          {
+            "name": "Furkating Jn",
+            "lat": 26.7000,
+            "lon": 93.9000
+          },
+          {
+            "name": "Golaghat",
+            "lat": 26.5225,
+            "lon": 93.9616
+          },
+          {
+            "name": "Bokajan",
+            "lat": 26.0211,
+            "lon": 93.7761
+          },
+          {
+            "name": "Diphu",
+            "lat": 25.8447,
+            "lon": 93.4342
+          },
+          {
+            "name": "Lumding Jn",
+            "lat": 25.7489,
+            "lon": 93.1700
+          },
+          {
+            "name": "Hojai",
+            "lat": 26.0025,
+            "lon": 92.8608
+          },
+          {
+            "name": "Jagiroad",
+            "lat": 26.0736,
+            "lon": 92.1736
+          },
+          {
+            "name": "Guwahati",
+            "lat": 26.1445,
+            "lon": 91.7362
+          }
+        ]
+      },
+      {
+        "train_number": "12069/12070",
+        "name": "Raigarh - Gondia Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Raigarh",
+            "lat": 21.8974,
+            "lon": 83.3950
+          },
+          {
+            "name": "Kharsia",
+            "lat": 21.9894,
+            "lon": 83.1664
+          },
+          {
+            "name": "Sakti",
+            "lat": 22.0246,
+            "lon": 82.9608
+          },
+          {
+            "name": "Champa",
+            "lat": 22.0350,
+            "lon": 82.6506
+          },
+          {
+            "name": "Bilaspur Jn",
+            "lat": 22.0796,
+            "lon": 82.1409
+          },
+          {
+            "name": "Bhatapara",
+            "lat": 21.7351,
+            "lon": 81.9476
+          },
+          {
+            "name": "Raipur Jn",
+            "lat": 21.2514,
+            "lon": 81.6296
+          },
+          {
+            "name": "Durg",
+            "lat": 21.1904,
+            "lon": 81.2849
+          },
+          {
+            "name": "Rajnandgaon",
+            "lat": 21.0974,
+            "lon": 81.0309
+          },
+          {
+            "name": "Dongargarh",
+            "lat": 21.1883,
+            "lon": 80.7546
+          },
+          {
+            "name": "Gondia Jn",
+            "lat": 21.4606,
+            "lon": 80.1951
+          }
+        ]
+      },
+      {
+        "train_number": "12071/12072",
+        "name": "Dadar - Jalna Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Dadar Central",
+            "lat": 19.0144,
+            "lon": 72.8479
+          },
+          {
+            "name": "Kalyan Jn",
+            "lat": 19.2437,
+            "lon": 73.1442
+          },
+          {
+            "name": "Nashik Road",
+            "lat": 20.0087,
+            "lon": 73.7898
+          },
+          {
+            "name": "Manmad Jn",
+            "lat": 20.2515,
+            "lon": 74.4379
+          },
+          {
+            "name": "Aurangabad",
+            "lat": 19.8762,
+            "lon": 75.3433
+          },
+          {
+            "name": "Jalna",
+            "lat": 19.8410,
+            "lon": 75.8863
+          }
+        ]
+      },
+      {
+        "train_number": "12073/12074",
+        "name": "Howrah - Bhubaneswar Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Howrah Jn",
+            "lat": 22.5836,
+            "lon": 88.3426
+          },
+          {
+            "name": "Santragachi Jn",
+            "lat": 22.5039,
+            "lon": 88.2708
+          },
+          {
+            "name": "Panskura",
+            "lat": 22.4211,
+            "lon": 87.7033
+          },
+          {
+            "name": "Kharagpur Jn",
+            "lat": 22.3397,
+            "lon": 87.3238
+          },
+          {
+            "name": "Hijli",
+            "lat": 22.3439,
+            "lon": 87.2083
+          },
+          {
+            "name": "Belda",
+            "lat": 22.2267,
+            "lon": 87.0719
+          },
+          {
+            "name": "Jaleswar",
+            "lat": 21.8017,
+            "lon": 87.2219
+          },
+          {
+            "name": "Basta",
+            "lat": 21.5506,
+            "lon": 86.9625
+          },
+          {
+            "name": "Balasore",
+            "lat": 21.4942,
+            "lon": 86.9336
+          },
+          {
+            "name": "Soro",
+            "lat": 21.2783,
+            "lon": 86.6886
+          },
+          {
+            "name": "Bhadrak",
+            "lat": 21.0544,
+            "lon": 86.5150
+          },
+          {
+            "name": "Jajpur Keonjhar Road",
+            "lat": 20.8553,
+            "lon": 86.1247
+          },
+          {
+            "name": "Cuttack",
+            "lat": 20.4625,
+            "lon": 85.8830
+          },
+          {
+            "name": "Bhubaneswar",
+            "lat": 20.2961,
+            "lon": 85.8245
+          }
+        ]
+      },
+      {
+        "train_number": "12075/12076",
+        "name": "Kozhikode - Trivandrum Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 110,
+        "stations": [
+          {
+            "name": "Kozhikode",
+            "lat": 11.2588,
+            "lon": 75.7804
+          },
+          {
+            "name": "Tirur",
+            "lat": 10.9085,
+            "lon": 75.9251
+          },
+          {
+            "name": "Shoranur Jn",
+            "lat": 10.7640,
+            "lon": 76.2688
+          },
+          {
+            "name": "Thrissur",
+            "lat": 10.5276,
+            "lon": 76.2144
+          },
+          {
+            "name": "Aluva",
+            "lat": 10.1071,
+            "lon": 76.3563
+          },
+          {
+            "name": "Ernakulam Town",
+            "lat": 9.9816,
+            "lon": 76.2999
+          },
+          {
+            "name": "Kottayam",
+            "lat": 9.5916,
+            "lon": 76.5222
+          },
+          {
+            "name": "Changanassery",
+            "lat": 9.3121,
+            "lon": 76.5410
+          },
+          {
+            "name": "Tiruvalla",
+            "lat": 9.3836,
+            "lon": 76.5742
+          },
+          {
+            "name": "Chengannur",
+            "lat": 9.3158,
+            "lon": 76.6156
+          },
+          {
+            "name": "Mavelikara",
+            "lat": 9.2590,
+            "lon": 76.5561
+          },
+          {
+            "name": "Kayamkulam Jn",
+            "lat": 9.1743,
+            "lon": 76.5012
+          },
+          {
+            "name": "Kollam Jn",
+            "lat": 8.8876,
+            "lon": 76.5912
+          },
+          {
+            "name": "Thiruvananthapuram Central",
+            "lat": 8.4875,
+            "lon": 76.9525
+          }
+        ]
+      },
+      {
+        "train_number": "12077/12078",
+        "name": "Chennai - Vijayawada Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Chennai Central",
+            "lat": 13.0827,
+            "lon": 80.2707
+          },
+          {
+            "name": "Arakkonam Jn",
+            "lat": 13.0847,
+            "lon": 79.6701
+          },
+          {
+            "name": "Renigunta Jn",
+            "lat": 13.6516,
+            "lon": 79.5121
+          },
+          {
+            "name": "Srikalahasti",
+            "lat": 13.7511,
+            "lon": 79.6985
+          },
+          {
+            "name": "Gudur Jn",
+            "lat": 14.1507,
+            "lon": 79.8513
+          },
+          {
+            "name": "Nellore",
+            "lat": 14.4426,
+            "lon": 79.9865
+          },
+          {
+            "name": "Kavali",
+            "lat": 14.9167,
+            "lon": 79.9942
+          },
+          {
+            "name": "Singarayakonda",
+            "lat": 15.2379,
+            "lon": 80.0271
+          },
+          {
+            "name": "Ongole",
+            "lat": 15.5057,
+            "lon": 80.0499
+          },
+          {
+            "name": "Chirala",
+            "lat": 15.8238,
+            "lon": 80.3522
+          },
+          {
+            "name": "Bapatla",
+            "lat": 15.9049,
+            "lon": 80.4673
+          },
+          {
+            "name": "Tenali Jn",
+            "lat": 16.2428,
+            "lon": 80.6468
+          },
+          {
+            "name": "Vijayawada Jn",
+            "lat": 16.5087,
+            "lon": 80.6197
+          }
+        ]
+      },
+      {
+        "train_number": "12079/12080",
+        "name": "Bangalore - Hubli Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "KSR Bangalore City",
+            "lat": 12.9716,
+            "lon": 77.5946
+          },
+          {
+            "name": "Yesvantpur Jn",
+            "lat": 13.0226,
+            "lon": 77.5452
+          },
+          {
+            "name": "Tumkur",
+            "lat": 13.3392,
+            "lon": 77.1140
+          },
+          {
+            "name": "Tiptur",
+            "lat": 13.2563,
+            "lon": 76.4785
+          },
+          {
+            "name": "Arsikere Jn",
+            "lat": 13.3139,
+            "lon": 76.2569
+          },
+          {
+            "name": "Birur Jn",
+            "lat": 13.5968,
+            "lon": 75.9720
+          },
+          {
+            "name": "Kadur",
+            "lat": 13.5528,
+            "lon": 76.0116
+          },
+          {
+            "name": "Ajjampur",
+            "lat": 13.7275,
+            "lon": 75.9988
+          },
+          {
+            "name": "Bhadravathi",
+            "lat": 13.8482,
+            "lon": 75.7051
+          },
+          {
+            "name": "Shimoga Town",
+            "lat": 13.9299,
+            "lon": 75.5681
+          },
+          {
+            "name": "Anweshwarnagar",
+            "lat": 13.9933,
+            "lon": 75.5428
+          },
+          {
+            "name": "Talaguppa",
+            "lat": 14.2092,
+            "lon": 75.0078
+          },
+          {
+            "name": "Sagar Jambagaru",
+            "lat": 14.1669,
+            "lon": 75.0408
+          },
+          {
+            "name": "Haveri",
+            "lat": 14.7951,
+            "lon": 75.4037
+          },
+          {
+            "name": "Ranibennur",
+            "lat": 14.6225,
+            "lon": 75.6294
+          },
+          {
+            "name": "Byadgi",
+            "lat": 14.6739,
+            "lon": 75.4861
+          },
+          {
+            "name": "Haveri",
+            "lat": 14.7951,
+            "lon": 75.4037
+          },
+          {
+            "name": "Hubli Jn",
+            "lat": 15.3647,
+            "lon": 75.1240
+          }
+        ]
+      },
+      {
+        "train_number": "12081/12082",
+        "name": "Kannur - Thiruvananthapuram Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 110,
+        "stations": [
+          {
+            "name": "Kannur",
+            "lat": 11.8745,
+            "lon": 75.3704
+          },
+          {
+            "name": "Thalassery",
+            "lat": 11.7474,
+            "lon": 75.4926
+          },
+          {
+            "name": "Vadakara",
+            "lat": 11.5888,
+            "lon": 75.5917
+          },
+          {
+            "name": "Kozhikode",
+            "lat": 11.2588,
+            "lon": 75.7804
+          },
+          {
+            "name": "Tirur",
+            "lat": 10.9085,
+            "lon": 75.9251
+          },
+          {
+            "name": "Shoranur Jn",
+            "lat": 10.7640,
+            "lon": 76.2688
+          },
+          {
+            "name": "Thrissur",
+            "lat": 10.5276,
+            "lon": 76.2144
+          },
+          {
+            "name": "Aluva",
+            "lat": 10.1071,
+            "lon": 76.3563
+          },
+          {
+            "name": "Ernakulam Town",
+            "lat": 9.9816,
+            "lon": 76.2999
+          },
+          {
+            "name": "Kottayam",
+            "lat": 9.5916,
+            "lon": 76.5222
+          },
+          {
+            "name": "Tiruvalla",
+            "lat": 9.3836,
+            "lon": 76.5742
+          },
+          {
+            "name": "Chengannur",
+            "lat": 9.3158,
+            "lon": 76.6156
+          },
+          {
+            "name": "Kayamkulam Jn",
+            "lat": 9.1743,
+            "lon": 76.5012
+          },
+          {
+            "name": "Kollam Jn",
+            "lat": 8.8876,
+            "lon": 76.5912
+          },
+          {
+            "name": "Thiruvananthapuram Central",
+            "lat": 8.4875,
+            "lon": 76.9525
+          }
+        ]
+      },
+      {
+        "train_number": "12083/12084",
+        "name": "Mayiladuthurai - Coimbatore Jan Shatabdi",
+        "status": "current",
+        "frequency": "Except Sun",
+        "max_speed_kmph": 110,
+        "stations": [
+          {
+            "name": "Mayiladuthurai Jn",
+            "lat": 11.1018,
+            "lon": 79.6491
+          },
+          {
+            "name": "Kumbakonam",
+            "lat": 10.9617,
+            "lon": 79.3881
+          },
+          {
+            "name": "Thanjavur",
+            "lat": 10.7867,
+            "lon": 79.1378
+          },
+          {
+            "name": "Tiruchirapalli Jn",
+            "lat": 10.8155,
+            "lon": 78.6897
+          },
+          {
+            "name": "Karur",
+            "lat": 10.9601,
+            "lon": 78.0766
+          },
+          {
+            "name": "Namakkal",
+            "lat": 11.2189,
+            "lon": 78.1674
+          },
+          {
+            "name": "Salem Jn",
+            "lat": 11.6643,
+            "lon": 78.1460
+          },
+          {
+            "name": "Erode Jn",
+            "lat": 11.3410,
+            "lon": 77.7172
+          },
+          {
+            "name": "Tiruppur",
+            "lat": 11.1085,
+            "lon": 77.3411
+          },
+          {
+            "name": "Coimbatore Jn",
+            "lat": 10.9925,
+            "lon": 76.9614
+          }
+        ]
+      },
+      {
+        "train_number": "12085/12086",
+        "name": "Ernakulam - Kochuveli Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 110,
+        "stations": [
+          {
+            "name": "Ernakulam Jn",
+            "lat": 9.9816,
+            "lon": 76.2844
+          },
+          {
+            "name": "Kottayam",
+            "lat": 9.5916,
+            "lon": 76.5222
+          },
+          {
+            "name": "Tiruvalla",
+            "lat": 9.3836,
+            "lon": 76.5742
+          },
+          {
+            "name": "Chengannur",
+            "lat": 9.3158,
+            "lon": 76.6156
+          },
+          {
+            "name": "Mavelikara",
+            "lat": 9.2590,
+            "lon": 76.5561
+          },
+          {
+            "name": "Kayamkulam Jn",
+            "lat": 9.1743,
+            "lon": 76.5012
+          },
+          {
+            "name": "Karunagappally",
+            "lat": 9.0548,
+            "lon": 76.5262
+          },
+          {
+            "name": "Kollam Jn",
+            "lat": 8.8876,
+            "lon": 76.5912
+          },
+          {
+            "name": "Paravur",
+            "lat": 8.7946,
+            "lon": 76.6679
+          },
+          {
+            "name": "Varkala",
+            "lat": 8.7351,
+            "lon": 76.7167
+          },
+          {
+            "name": "Kadakkavur",
+            "lat": 8.6714,
+            "lon": 76.7639
+          },
+          {
+            "name": "Chirayinkeezhu",
+            "lat": 8.6148,
+            "lon": 76.8078
+          },
+          {
+            "name": "Kochuveli",
+            "lat": 8.4885,
+            "lon": 76.9174
+          }
+        ]
+      },
+      {
+        "train_number": "12365/12366",
+        "name": "Patna - Ranchi Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "stations": [
+          {
+            "name": "Patna Jn",
+            "lat": 25.6093,
+            "lon": 85.1376
+          },
+          {
+            "name": "Pnbe",
+            "lat": 25.6025,
+            "lon": 85.1376
+          },
+          {
+            "name": "Jehanabad",
+            "lat": 25.2137,
+            "lon": 84.9870
+          },
+          {
+            "name": "Gaya Jn",
+            "lat": 24.7955,
+            "lon": 84.9994
+          },
+          {
+            "name": "Koderma",
+            "lat": 24.4678,
+            "lon": 85.5936
+          },
+          {
+            "name": "Hazaribagh Road",
+            "lat": 24.0081,
+            "lon": 85.6203
+          },
+          {
+            "name": "Parasnath",
+            "lat": 23.9789,
+            "lon": 86.0511
+          },
+          {
+            "name": "Gomoh Jn",
+            "lat": 23.8739,
+            "lon": 86.1517
+          },
+          {
+            "name": "Chandrapura",
+            "lat": 23.7456,
+            "lon": 86.0544
+          },
+          {
+            "name": "Bokaro Steel City",
+            "lat": 23.6693,
+            "lon": 86.1511
+          },
+          {
+            "name": "Muri",
+            "lat": 23.3778,
+            "lon": 85.8608
+          },
+          {
+            "name": "Ranchi",
+            "lat": 23.3441,
+            "lon": 85.3096
+          }
+        ]
+      },
+      {
+        "train_number": "12561/12562",
+        "name": "Swatantrata Senani Express (New Delhi - Jaynagar)",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 110,
+        "stations": [
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319
+          },
+          {
+            "name": "Lucknow",
+            "lat": 26.8467,
+            "lon": 80.9462
+          },
+          {
+            "name": "Barabanki Jn",
+            "lat": 26.9300,
+            "lon": 81.2042
+          },
+          {
+            "name": "Gonda Jn",
+            "lat": 27.1340,
+            "lon": 81.9619
+          },
+          {
+            "name": "Basti",
+            "lat": 26.8144,
+            "lon": 82.7164
+          },
+          {
+            "name": "Gorakhpur",
+            "lat": 26.7588,
+            "lon": 83.3697
+          },
+          {
+            "name": "Deoria Sadar",
+            "lat": 26.5024,
+            "lon": 83.7790
+          },
+          {
+            "name": "Siwan Jn",
+            "lat": 26.2245,
+            "lon": 84.3600
+          },
+          {
+            "name": "Chhapra",
+            "lat": 25.7811,
+            "lon": 84.7463
+          },
+          {
+            "name": "Hajipur Jn",
+            "lat": 25.6854,
+            "lon": 85.2103
+          },
+          {
+            "name": "Muzaffarpur Jn",
+            "lat": 26.1209,
+            "lon": 85.3647
+          },
+          {
+            "name": "Samastipur Jn",
+            "lat": 25.8630,
+            "lon": 85.7811
+          },
+          {
+            "name": "Darbhanga",
+            "lat": 26.1542,
+            "lon": 85.8918
+          },
+          {
+            "name": "Madhubani",
+            "lat": 26.3483,
+            "lon": 86.0753
+          },
+          {
+            "name": "Jaynagar",
+            "lat": 26.5917,
+            "lon": 86.1372
+          }
+        ]
+      },
+      {
+        "train_number": "15125/15126",
+        "name": "Patna - Manduadih Jan Shatabdi",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 110,
+        "stations": [
+          {
+            "name": "Patna Jn",
+            "lat": 25.6093,
+            "lon": 85.1376
+          },
+          {
+            "name": "Patliputra Jn",
+            "lat": 25.6217,
+            "lon": 85.0689
+          },
+          {
+            "name": "Danapur",
+            "lat": 25.6480,
+            "lon": 85.0436
+          },
+          {
+            "name": "Ara Jn",
+            "lat": 25.5565,
+            "lon": 84.6625
+          },
+          {
+            "name": "Bihiya",
+            "lat": 25.5025,
+            "lon": 84.5147
+          },
+          {
+            "name": "Buxar",
+            "lat": 25.5647,
+            "lon": 83.9777
+          },
+          {
+            "name": "Chausa",
+            "lat": 25.5275,
+            "lon": 83.8631
+          },
+          {
+            "name": "Gahmar",
+            "lat": 25.4331,
+            "lon": 83.8092
+          },
+          {
+            "name": "Yusufpur",
+            "lat": 25.3608,
+            "lon": 83.7328
+          },
+          {
+            "name": "Zamania",
+            "lat": 25.3156,
+            "lon": 83.5575
+          },
+          {
+            "name": "Dheena",
+            "lat": 25.2956,
+            "lon": 83.4656
+          },
+          {
+            "name": "Dildarnagar Jn",
+            "lat": 25.4297,
+            "lon": 83.6656
+          },
+          {
+            "name": "Taraon",
+            "lat": 25.3194,
+            "lon": 83.3400
+          },
+          {
+            "name": "Saidpur",
+            "lat": 25.3117,
+            "lon": 83.2461
+          },
+          {
+            "name": "Karimuddinpur",
+            "lat": 25.3136,
+            "lon": 83.1875
+          },
+          {
+            "name": "Mughalsarai Jn",
+            "lat": 25.2677,
+            "lon": 83.1152
+          },
+          {
+            "name": "Vyasnagar",
+            "lat": 25.3117,
+            "lon": 83.0439
+          },
+          {
+            "name": "Manduadih",
+            "lat": 25.3318,
+            "lon": 82.9191
+          }
+        ]
+      }
+    ],
+    "features": [
+      "Day trains for common passengers",
+      "Both AC and non-AC coaches available",
+      "More affordable than Shatabdi Express",
+      "No free meals - paid catering available",
+      "Classes: AC Chair Car, Second Sitting (2S)",
+      "Reserved seats only - no unreserved accommodation",
+      "Maximum speed: 110-130 km/h",
+      "Launched in 2003 to serve common passengers"
+    ]
+  }
+}
