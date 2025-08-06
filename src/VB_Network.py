@@ -17,7 +17,7 @@ import os
 # Map specifications
 map_specs = {
     "map_title": "Vande Bharat Network",
-    "current_route_color": "#CC0000",    
+    "current_route_color": "#FF671F",    
     "route_line_width": 2,
     "station_marker_color": "#FFA500",
     "station_marker_size": 50,
