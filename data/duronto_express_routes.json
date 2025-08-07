@@ -1,0 +1,2128 @@
+{
+  "duronto_express_routes": {
+    "last_updated": "2025-08",
+    "total_routes": 26,
+    "description": "Premium non-stop or minimal-stop express trains for faster inter-city connectivity",
+    "introduced": "2009",
+    "routes": [
+      {
+        "train_number": "12213/12214",
+        "name": "Delhi Sarai Rohilla - Yesvantpur Duronto",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 2367,
+        "travel_time": "33h 50m",
+        "stations": [
+          {
+            "name": "Delhi Sarai Rohilla",
+            "lat": 28.6614,
+            "lon": 77.1919,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Jaipur",
+            "lat": 26.9124,
+            "lon": 75.7873,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ajmer Jn",
+            "lat": 26.4499,
+            "lon": 74.6399,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Abu Road",
+            "lat": 24.4802,
+            "lon": 72.7780,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ahmedabad Jn",
+            "lat": 23.0225,
+            "lon": 72.5714,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Surat",
+            "lat": 21.1702,
+            "lon": 72.8311,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Valsad",
+            "lat": 20.3893,
+            "lon": 72.9282,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vasai Road",
+            "lat": 19.3919,
+            "lon": 72.8397,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Panvel",
+            "lat": 18.9894,
+            "lon": 73.1175,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Pune Jn",
+            "lat": 18.5204,
+            "lon": 73.8567,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Solapur",
+            "lat": 17.6599,
+            "lon": 75.9064,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Gulbarga",
+            "lat": 17.3297,
+            "lon": 76.8343,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Guntakal Jn",
+            "lat": 15.1669,
+            "lon": 77.3710,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Dharmavaram Jn",
+            "lat": 14.4141,
+            "lon": 77.7168,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Yesvantpur Jn",
+            "lat": 13.0223,
+            "lon": 77.5511,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12221/12222",
+        "name": "Pune - Hazrat Nizamuddin Duronto",
+        "status": "current",
+        "frequency": "Tri-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 1511,
+        "travel_time": "20h",
+        "average_speed_kmph": 76,
+        "stations": [
+          {
+            "name": "Pune Jn",
+            "lat": 18.5204,
+            "lon": 73.8567,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Lonavala",
+            "lat": 18.7546,
+            "lon": 73.4062,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kalyan Jn",
+            "lat": 19.2437,
+            "lon": 73.1442,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Nashik Road",
+            "lat": 20.0087,
+            "lon": 73.7898,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Manmad Jn",
+            "lat": 20.2515,
+            "lon": 74.4379,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jalgaon Jn",
+            "lat": 21.0077,
+            "lon": 75.5626,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhusaval Jn",
+            "lat": 21.0458,
+            "lon": 75.7852,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Mathura Jn",
+            "lat": 27.4924,
+            "lon": 77.6737,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12223/12224",
+        "name": "Mumbai LTT - Ernakulam Duronto",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 1532,
+        "travel_time": "23h 30m",
+        "stations": [
+          {
+            "name": "Lokmanya Tilak Terminus",
+            "lat": 19.0690,
+            "lon": 72.8872,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Panvel",
+            "lat": 18.9894,
+            "lon": 73.1175,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Roha",
+            "lat": 18.4363,
+            "lon": 73.1139,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ratnagiri",
+            "lat": 16.9944,
+            "lon": 73.3002,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Madgaon",
+            "lat": 15.2759,
+            "lon": 73.9558,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Karwar",
+            "lat": 14.8138,
+            "lon": 74.1269,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Mangaluru Central",
+            "lat": 12.8706,
+            "lon": 74.8354,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kannur",
+            "lat": 11.8745,
+            "lon": 75.3704,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kozhikode",
+            "lat": 11.2588,
+            "lon": 75.7804,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Shoranur Jn",
+            "lat": 10.7640,
+            "lon": 76.2688,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Thrissur",
+            "lat": 10.5276,
+            "lon": 76.2144,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ernakulam Jn",
+            "lat": 9.9816,
+            "lon": 76.2844,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12227/12228",
+        "name": "Mumbai Central - Indore Duronto",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 829,
+        "travel_time": "12h 30m",
+        "stations": [
+          {
+            "name": "Mumbai Central",
+            "lat": 18.9690,
+            "lon": 72.8205,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Borivali",
+            "lat": 19.2307,
+            "lon": 72.8567,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vapi",
+            "lat": 20.3893,
+            "lon": 72.9106,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Surat",
+            "lat": 21.1702,
+            "lon": 72.8311,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Dahod",
+            "lat": 22.8351,
+            "lon": 74.2533,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ratlam Jn",
+            "lat": 23.3315,
+            "lon": 75.0367,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Nagda Jn",
+            "lat": 23.4578,
+            "lon": 75.4178,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ujjain Jn",
+            "lat": 23.1765,
+            "lon": 75.7885,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Indore Jn",
+            "lat": 22.7196,
+            "lon": 75.8577,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12239/12240",
+        "name": "Mumbai Central - Jaipur Duronto",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 1149,
+        "travel_time": "16h 30m",
+        "stations": [
+          {
+            "name": "Mumbai Central",
+            "lat": 18.9690,
+            "lon": 72.8205,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Borivali",
+            "lat": 19.2307,
+            "lon": 72.8567,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vapi",
+            "lat": 20.3893,
+            "lon": 72.9106,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Surat",
+            "lat": 21.1702,
+            "lon": 72.8311,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ratlam Jn",
+            "lat": 23.3315,
+            "lon": 75.0367,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kota Jn",
+            "lat": 25.2138,
+            "lon": 75.8648,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Sawai Madhopur",
+            "lat": 26.0173,
+            "lon": 76.3556,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jaipur",
+            "lat": 26.9124,
+            "lon": 75.7873,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12245/12246",
+        "name": "Howrah - Yesvantpur Duronto",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 1866,
+        "travel_time": "26h 30m",
+        "stations": [
+          {
+            "name": "Howrah Jn",
+            "lat": 22.5836,
+            "lon": 88.3426,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Kharagpur Jn",
+            "lat": 22.3397,
+            "lon": 87.3238,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Balasore",
+            "lat": 21.4942,
+            "lon": 86.9336,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhubaneswar",
+            "lat": 20.2961,
+            "lon": 85.8245,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Khurda Road Jn",
+            "lat": 20.1829,
+            "lon": 85.8397,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Brahmapur",
+            "lat": 19.3225,
+            "lon": 84.7960,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vizianagaram Jn",
+            "lat": 18.1167,
+            "lon": 83.4167,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Visakhapatnam",
+            "lat": 17.6868,
+            "lon": 83.2185,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Rajahmundry",
+            "lat": 17.0005,
+            "lon": 81.8040,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vijayawada Jn",
+            "lat": 16.5087,
+            "lon": 80.6197,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ongole",
+            "lat": 15.5057,
+            "lon": 80.0499,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Nellore",
+            "lat": 14.4426,
+            "lon": 79.9865,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Renigunta Jn",
+            "lat": 13.6516,
+            "lon": 79.5121,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Katpadi Jn",
+            "lat": 12.9693,
+            "lon": 79.1378,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jolarpettai",
+            "lat": 12.5706,
+            "lon": 78.5732,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Krishnarajapuram",
+            "lat": 13.0283,
+            "lon": 77.6821,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Yesvantpur Jn",
+            "lat": 13.0223,
+            "lon": 77.5511,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12259/12260",
+        "name": "Sealdah - New Delhi Duronto",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "distance_km": 1452,
+        "travel_time": "16h 55m",
+        "average_speed_kmph": 86,
+        "stations": [
+          {
+            "name": "Sealdah",
+            "lat": 22.5645,
+            "lon": 88.3631,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Durgapur",
+            "lat": 23.5204,
+            "lon": 87.3119,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Asansol Jn",
+            "lat": 23.6833,
+            "lon": 86.9833,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Dhanbad Jn",
+            "lat": 23.7957,
+            "lon": 86.4304,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Gaya Jn",
+            "lat": 24.7955,
+            "lon": 84.9994,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Mughalsarai Jn",
+            "lat": 25.2677,
+            "lon": 83.1152,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319,
+            "stop_type": "technical"
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12261/12262",
+        "name": "Howrah - Mumbai CSMT Duronto",
+        "status": "current",
+        "frequency": "Four Days a Week",
+        "max_speed_kmph": 130,
+        "distance_km": 1965,
+        "travel_time": "26h 45m",
+        "stations": [
+          {
+            "name": "Howrah Jn",
+            "lat": 22.5836,
+            "lon": 88.3426,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Kharagpur Jn",
+            "lat": 22.3397,
+            "lon": 87.3238,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Tatanagar Jn",
+            "lat": 22.7925,
+            "lon": 86.2029,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Rourkela",
+            "lat": 22.2604,
+            "lon": 84.8536,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jharsuguda Jn",
+            "lat": 21.8679,
+            "lon": 84.0306,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bilaspur Jn",
+            "lat": 22.0796,
+            "lon": 82.1409,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Raipur",
+            "lat": 21.2514,
+            "lon": 81.6296,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Durg",
+            "lat": 21.1904,
+            "lon": 81.2849,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Gondia Jn",
+            "lat": 21.4606,
+            "lon": 80.1951,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Nagpur",
+            "lat": 21.1458,
+            "lon": 79.0882,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhusaval Jn",
+            "lat": 21.0458,
+            "lon": 75.7852,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Manmad Jn",
+            "lat": 20.2515,
+            "lon": 74.4379,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Nashik Road",
+            "lat": 20.0087,
+            "lon": 73.7898,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kalyan Jn",
+            "lat": 19.2437,
+            "lon": 73.1442,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Mumbai CSMT",
+            "lat": 18.9406,
+            "lon": 72.8356,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12263/12264",
+        "name": "Pune - Hazrat Nizamuddin Duronto",
+        "status": "current",
+        "frequency": "Four Days a Week",
+        "max_speed_kmph": 130,
+        "distance_km": 1511,
+        "travel_time": "19h 55m",
+        "average_speed_kmph": 76,
+        "stations": [
+          {
+            "name": "Pune Jn",
+            "lat": 18.5204,
+            "lon": 73.8567,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Daund Jn",
+            "lat": 18.4621,
+            "lon": 74.5833,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Manmad Jn",
+            "lat": 20.2515,
+            "lon": 74.4379,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhusaval Jn",
+            "lat": 21.0458,
+            "lon": 75.7852,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Itarsi Jn",
+            "lat": 22.6122,
+            "lon": 77.7628,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Agra Cantt",
+            "lat": 27.1767,
+            "lon": 78.0081,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12265/12266",
+        "name": "Delhi Sarai Rohilla - Jammu Tawi Duronto",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 577,
+        "travel_time": "8h 35m",
+        "stations": [
+          {
+            "name": "Delhi Sarai Rohilla",
+            "lat": 28.6614,
+            "lon": 77.1919,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Panipat Jn",
+            "lat": 29.3909,
+            "lon": 76.9635,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ambala Cantt",
+            "lat": 30.3759,
+            "lon": 76.7796,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ludhiana Jn",
+            "lat": 30.9120,
+            "lon": 75.8542,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jalandhar City",
+            "lat": 31.3260,
+            "lon": 75.5762,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Pathankot Cantt",
+            "lat": 32.2643,
+            "lon": 75.6517,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jammu Tawi",
+            "lat": 32.7266,
+            "lon": 74.8570,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12267/12268",
+        "name": "Mumbai Central - Hapa Duronto",
+        "status": "current",
+        "frequency": "Tri-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 766,
+        "travel_time": "11h 50m",
+        "stations": [
+          {
+            "name": "Mumbai Central",
+            "lat": 18.9690,
+            "lon": 72.8205,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Borivali",
+            "lat": 19.2307,
+            "lon": 72.8567,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vapi",
+            "lat": 20.3893,
+            "lon": 72.9106,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Surat",
+            "lat": 21.1702,
+            "lon": 72.8311,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ahmedabad Jn",
+            "lat": 23.0225,
+            "lon": 72.5714,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Viramgam Jn",
+            "lat": 23.1250,
+            "lon": 72.0556,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Surendranagar",
+            "lat": 22.7281,
+            "lon": 71.6486,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Rajkot Jn",
+            "lat": 22.3039,
+            "lon": 70.8022,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Hapa",
+            "lat": 22.6403,
+            "lon": 70.0733,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12269/12270",
+        "name": "Chennai Central - Hazrat Nizamuddin Duronto",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 2175,
+        "travel_time": "28h 10m",
+        "average_speed_kmph": 77,
+        "stations": [
+          {
+            "name": "Chennai Central",
+            "lat": 13.0827,
+            "lon": 80.2707,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Vijayawada Jn",
+            "lat": 16.5087,
+            "lon": 80.6197,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Warangal",
+            "lat": 17.9784,
+            "lon": 79.5941,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Balharshah",
+            "lat": 19.8519,
+            "lon": 79.3270,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Nagpur",
+            "lat": 21.1458,
+            "lon": 79.0882,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Itarsi Jn",
+            "lat": 22.6122,
+            "lon": 77.7628,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Agra Cantt",
+            "lat": 27.1767,
+            "lon": 78.0081,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12273/12274",
+        "name": "Howrah - New Delhi Duronto",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 1449,
+        "travel_time": "17h 15m",
+        "stations": [
+          {
+            "name": "Howrah Jn",
+            "lat": 22.5836,
+            "lon": 88.3426,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Barddhaman Jn",
+            "lat": 23.2324,
+            "lon": 87.8615,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Durgapur",
+            "lat": 23.5204,
+            "lon": 87.3119,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Asansol Jn",
+            "lat": 23.6833,
+            "lon": 86.9833,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Dhanbad Jn",
+            "lat": 23.7957,
+            "lon": 86.4304,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Gaya Jn",
+            "lat": 24.7955,
+            "lon": 84.9994,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Mughalsarai Jn",
+            "lat": 25.2677,
+            "lon": 83.1152,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319,
+            "stop_type": "technical"
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12275/12276",
+        "name": "Prayagraj - New Delhi Duronto",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 634,
+        "travel_time": "7h 40m",
+        "average_speed_kmph": 83,
+        "stations": [
+          {
+            "name": "Prayagraj Jn",
+            "lat": 25.4547,
+            "lon": 81.8463,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Fatehpur",
+            "lat": 25.9285,
+            "lon": 80.8139,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Aligarh Jn",
+            "lat": 27.8974,
+            "lon": 78.0880,
+            "stop_type": "technical"
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12283/12284",
+        "name": "Ernakulam - Hazrat Nizamuddin Duronto",
+        "status": "current",
+        "frequency": "Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 2943,
+        "travel_time": "44h 35m",
+        "stations": [
+          {
+            "name": "Ernakulam Jn",
+            "lat": 9.9816,
+            "lon": 76.2844,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Thrissur",
+            "lat": 10.5276,
+            "lon": 76.2144,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Palakkad Jn",
+            "lat": 10.7867,
+            "lon": 76.6547,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Coimbatore Jn",
+            "lat": 10.9925,
+            "lon": 76.9614,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Salem Jn",
+            "lat": 11.6643,
+            "lon": 78.1460,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jolarpettai",
+            "lat": 12.5706,
+            "lon": 78.5732,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Katpadi Jn",
+            "lat": 12.9693,
+            "lon": 79.1378,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Renigunta Jn",
+            "lat": 13.6516,
+            "lon": 79.5121,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vijayawada Jn",
+            "lat": 16.5087,
+            "lon": 80.6197,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Warangal",
+            "lat": 17.9784,
+            "lon": 79.5941,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Nagpur",
+            "lat": 21.1458,
+            "lon": 79.0882,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12285/12286",
+        "name": "Secunderabad - Hazrat Nizamuddin Duronto",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 1661,
+        "travel_time": "22h 10m",
+        "average_speed_kmph": 75,
+        "stations": [
+          {
+            "name": "Secunderabad Jn",
+            "lat": 17.4337,
+            "lon": 78.5016,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Kazipet Jn",
+            "lat": 17.9689,
+            "lon": 79.5263,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Balharshah",
+            "lat": 19.8519,
+            "lon": 79.3270,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Nagpur",
+            "lat": 21.1458,
+            "lon": 79.0882,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Itarsi Jn",
+            "lat": 22.6122,
+            "lon": 77.7628,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Agra Cantt",
+            "lat": 27.1767,
+            "lon": 78.0081,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12289/12290",
+        "name": "Mumbai CSMT - Nagpur Duronto",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "distance_km": 839,
+        "travel_time": "12h 10m",
+        "average_speed_kmph": 69,
+        "stations": [
+          {
+            "name": "Mumbai CSMT",
+            "lat": 18.9406,
+            "lon": 72.8356,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Kalyan Jn",
+            "lat": 19.2437,
+            "lon": 73.1442,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Nashik Road",
+            "lat": 20.0087,
+            "lon": 73.7898,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Manmad Jn",
+            "lat": 20.2515,
+            "lon": 74.4379,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jalgaon Jn",
+            "lat": 21.0077,
+            "lon": 75.5626,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhusaval Jn",
+            "lat": 21.0458,
+            "lon": 75.7852,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Akola Jn",
+            "lat": 20.7002,
+            "lon": 77.0082,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Wardha Jn",
+            "lat": 20.7453,
+            "lon": 78.6022,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Nagpur",
+            "lat": 21.1458,
+            "lon": 79.0882,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12293/12294",
+        "name": "LTT Mumbai - Prayagraj Duronto",
+        "status": "current",
+        "frequency": "Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 1345,
+        "travel_time": "18h 20m",
+        "stations": [
+          {
+            "name": "Lokmanya Tilak Terminus",
+            "lat": 19.0690,
+            "lon": 72.8872,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Kalyan Jn",
+            "lat": 19.2437,
+            "lon": 73.1442,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Nashik Road",
+            "lat": 20.0087,
+            "lon": 73.7898,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Manmad Jn",
+            "lat": 20.2515,
+            "lon": 74.4379,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhusaval Jn",
+            "lat": 21.0458,
+            "lon": 75.7852,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Itarsi Jn",
+            "lat": 22.6122,
+            "lon": 77.7628,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jabalpur",
+            "lat": 23.1815,
+            "lon": 79.9864,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Katni Jn",
+            "lat": 23.8336,
+            "lon": 80.3938,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Satna",
+            "lat": 24.5822,
+            "lon": 80.8345,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Prayagraj Jn",
+            "lat": 25.4547,
+            "lon": 81.8463,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12297/12298",
+        "name": "Pune - Ahmedabad Duronto",
+        "status": "current",
+        "frequency": "Tri-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 658,
+        "travel_time": "9h 15m",
+        "stations": [
+          {
+            "name": "Pune Jn",
+            "lat": 18.5204,
+            "lon": 73.8567,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Lonavala",
+            "lat": 18.7546,
+            "lon": 73.4062,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kalyan Jn",
+            "lat": 19.2437,
+            "lon": 73.1442,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vasai Road",
+            "lat": 19.3919,
+            "lon": 72.8397,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vapi",
+            "lat": 20.3893,
+            "lon": 72.9106,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Surat",
+            "lat": 21.1702,
+            "lon": 72.8311,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ahmedabad Jn",
+            "lat": 23.0225,
+            "lon": 72.5714,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "22201/22202",
+        "name": "Sealdah - Puri Duronto",
+        "status": "current",
+        "frequency": "Daily",
+        "max_speed_kmph": 130,
+        "distance_km": 500,
+        "travel_time": "7h",
+        "average_speed_kmph": 71,
+        "stations": [
+          {
+            "name": "Sealdah",
+            "lat": 22.5645,
+            "lon": 88.3631,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Santragachi Jn",
+            "lat": 22.5039,
+            "lon": 88.2708,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kharagpur Jn",
+            "lat": 22.3397,
+            "lon": 87.3238,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Balasore",
+            "lat": 21.4942,
+            "lon": 86.9336,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhadrak",
+            "lat": 21.0544,
+            "lon": 86.5150,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Cuttack",
+            "lat": 20.4625,
+            "lon": 85.8830,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhubaneswar",
+            "lat": 20.2961,
+            "lon": 85.8245,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Khurda Road Jn",
+            "lat": 20.1829,
+            "lon": 85.8397,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Puri",
+            "lat": 19.8135,
+            "lon": 85.8312,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "22203/22204",
+        "name": "Visakhapatnam - Secunderabad Duronto",
+        "status": "current",
+        "frequency": "Tri-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 500,
+        "travel_time": "7h 50m",
+        "stations": [
+          {
+            "name": "Visakhapatnam",
+            "lat": 17.6868,
+            "lon": 83.2185,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Duvvada",
+            "lat": 17.6167,
+            "lon": 83.2000,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Rajahmundry",
+            "lat": 17.0005,
+            "lon": 81.8040,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Eluru",
+            "lat": 16.7107,
+            "lon": 81.0952,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vijayawada Jn",
+            "lat": 16.5087,
+            "lon": 80.6197,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Khammam",
+            "lat": 17.2473,
+            "lon": 80.1514,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Warangal",
+            "lat": 17.9784,
+            "lon": 79.5941,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Secunderabad Jn",
+            "lat": 17.4337,
+            "lon": 78.5016,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "22205/22206",
+        "name": "Chennai Central - Madurai Duronto",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 493,
+        "travel_time": "6h 40m",
+        "stations": [
+          {
+            "name": "Chennai Central",
+            "lat": 13.0827,
+            "lon": 80.2707,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Tambaram",
+            "lat": 12.9249,
+            "lon": 80.1000,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Chengalpattu Jn",
+            "lat": 12.6819,
+            "lon": 79.9888,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Villupuram Jn",
+            "lat": 11.9401,
+            "lon": 79.4930,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Tiruchirapalli Jn",
+            "lat": 10.8155,
+            "lon": 78.6897,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Dindigul Jn",
+            "lat": 10.3673,
+            "lon": 77.9803,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Madurai Jn",
+            "lat": 9.9252,
+            "lon": 78.1198,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "22207/22208",
+        "name": "Chennai Central - Thiruvananthapuram Duronto",
+        "status": "current",
+        "frequency": "Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 888,
+        "travel_time": "13h 30m",
+        "stations": [
+          {
+            "name": "Chennai Central",
+            "lat": 13.0827,
+            "lon": 80.2707,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Katpadi Jn",
+            "lat": 12.9693,
+            "lon": 79.1378,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jolarpettai",
+            "lat": 12.5706,
+            "lon": 78.5732,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Salem Jn",
+            "lat": 11.6643,
+            "lon": 78.1460,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Erode Jn",
+            "lat": 11.3410,
+            "lon": 77.7172,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Coimbatore Jn",
+            "lat": 10.9925,
+            "lon": 76.9614,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Palakkad Jn",
+            "lat": 10.7867,
+            "lon": 76.6547,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Thrissur",
+            "lat": 10.5276,
+            "lon": 76.2144,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ernakulam Town",
+            "lat": 9.9816,
+            "lon": 76.2999,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kollam Jn",
+            "lat": 8.8876,
+            "lon": 76.5912,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Thiruvananthapuram Central",
+            "lat": 8.4875,
+            "lon": 76.9525,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "22209/22210",
+        "name": "Mumbai Central - New Delhi Duronto",
+        "status": "current",
+        "frequency": "Six Days a Week",
+        "max_speed_kmph": 140,
+        "distance_km": 1386,
+        "travel_time": "16h 5m",
+        "average_speed_kmph": 86,
+        "fastest_duronto": true,
+        "stations": [
+          {
+            "name": "Mumbai Central",
+            "lat": 18.9690,
+            "lon": 72.8205,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Borivali",
+            "lat": 19.2307,
+            "lon": 72.8567,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vapi",
+            "lat": 20.3893,
+            "lon": 72.9106,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Surat",
+            "lat": 21.1702,
+            "lon": 72.8311,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ratlam Jn",
+            "lat": 23.3315,
+            "lon": 75.0367,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kota Jn",
+            "lat": 25.2138,
+            "lon": 75.8648,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Mathura Jn",
+            "lat": 27.4924,
+            "lon": 77.6737,
+            "stop_type": "technical"
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12213/12214",
+        "name": "Yesvantpur - Delhi Sarai Rohilla Duronto",
+        "status": "current",
+        "frequency": "Bi-Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 2367,
+        "travel_time": "33h 50m",
+        "stations": [
+          {
+            "name": "Yesvantpur Jn",
+            "lat": 13.0223,
+            "lon": 77.5511,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Dharmavaram Jn",
+            "lat": 14.4141,
+            "lon": 77.7168,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Guntakal Jn",
+            "lat": 15.1669,
+            "lon": 77.3710,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Gulbarga",
+            "lat": 17.3297,
+            "lon": 76.8343,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Solapur",
+            "lat": 17.6599,
+            "lon": 75.9064,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Pune Jn",
+            "lat": 18.5204,
+            "lon": 73.8567,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Panvel",
+            "lat": 18.9894,
+            "lon": 73.1175,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vasai Road",
+            "lat": 19.3919,
+            "lon": 72.8397,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Valsad",
+            "lat": 20.3893,
+            "lon": 72.9282,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Surat",
+            "lat": 21.1702,
+            "lon": 72.8311,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ahmedabad Jn",
+            "lat": 23.0225,
+            "lon": 72.5714,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Abu Road",
+            "lat": 24.4802,
+            "lon": 72.7780,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ajmer Jn",
+            "lat": 26.4499,
+            "lon": 74.6399,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jaipur",
+            "lat": 26.9124,
+            "lon": 75.7873,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Delhi Sarai Rohilla",
+            "lat": 28.6614,
+            "lon": 77.1919,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12267/12268",
+        "name": "Mumbai Central - Ahmedabad Duronto",
+        "status": "current",
+        "frequency": "Six Days a Week",
+        "max_speed_kmph": 130,
+        "distance_km": 491,
+        "travel_time": "6h 25m",
+        "average_speed_kmph": 76,
+        "stations": [
+          {
+            "name": "Mumbai Central",
+            "lat": 18.9690,
+            "lon": 72.8205,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Borivali",
+            "lat": 19.2307,
+            "lon": 72.8567,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vapi",
+            "lat": 20.3893,
+            "lon": 72.9106,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Surat",
+            "lat": 21.1702,
+            "lon": 72.8311,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vadodara Jn",
+            "lat": 22.3072,
+            "lon": 73.1812,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ahmedabad Jn",
+            "lat": 23.0225,
+            "lon": 72.5714,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12281/12282",
+        "name": "Bhubaneswar - New Delhi Duronto",
+        "status": "current",
+        "frequency": "Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 1736,
+        "travel_time": "24h 10m",
+        "stations": [
+          {
+            "name": "Bhubaneswar",
+            "lat": 20.2961,
+            "lon": 85.8245,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Cuttack",
+            "lat": 20.4625,
+            "lon": 85.8830,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Dhenkanal",
+            "lat": 20.6667,
+            "lon": 85.5833,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Angul",
+            "lat": 20.8377,
+            "lon": 85.0105,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Sambalpur",
+            "lat": 21.4669,
+            "lon": 83.9751,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jharsuguda Jn",
+            "lat": 21.8679,
+            "lon": 84.0306,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Rourkela",
+            "lat": 22.2604,
+            "lon": 84.8536,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ranchi",
+            "lat": 23.3441,
+            "lon": 85.3096,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bokaro Steel City",
+            "lat": 23.6693,
+            "lon": 86.1511,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Gaya Jn",
+            "lat": 24.7955,
+            "lon": 84.9994,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Mughalsarai Jn",
+            "lat": 25.2677,
+            "lon": 83.1152,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Allahabad Jn",
+            "lat": 25.4547,
+            "lon": 81.8463,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Kanpur Central",
+            "lat": 26.4499,
+            "lon": 80.3319,
+            "stop_type": "technical"
+          },
+          {
+            "name": "New Delhi",
+            "lat": 28.6415,
+            "lon": 77.2190,
+            "stop_type": "destination"
+          }
+        ]
+      },
+      {
+        "train_number": "12287/12288",
+        "name": "Kochuveli - Hazrat Nizamuddin Duronto",
+        "status": "current",
+        "frequency": "Weekly",
+        "max_speed_kmph": 130,
+        "distance_km": 2895,
+        "travel_time": "43h 20m",
+        "stations": [
+          {
+            "name": "Kochuveli",
+            "lat": 8.4885,
+            "lon": 76.9174,
+            "stop_type": "origin"
+          },
+          {
+            "name": "Kollam Jn",
+            "lat": 8.8876,
+            "lon": 76.5912,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Ernakulam Town",
+            "lat": 9.9816,
+            "lon": 76.2999,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Thrissur",
+            "lat": 10.5276,
+            "lon": 76.2144,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Palakkad Jn",
+            "lat": 10.7867,
+            "lon": 76.6547,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Coimbatore Jn",
+            "lat": 10.9925,
+            "lon": 76.9614,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Salem Jn",
+            "lat": 11.6643,
+            "lon": 78.1460,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jolarpettai",
+            "lat": 12.5706,
+            "lon": 78.5732,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Katpadi Jn",
+            "lat": 12.9693,
+            "lon": 79.1378,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Renigunta Jn",
+            "lat": 13.6516,
+            "lon": 79.5121,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Vijayawada Jn",
+            "lat": 16.5087,
+            "lon": 80.6197,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Warangal",
+            "lat": 17.9784,
+            "lon": 79.5941,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Nagpur",
+            "lat": 21.1458,
+            "lon": 79.0882,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Bhopal Jn",
+            "lat": 23.2599,
+            "lon": 77.4126,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Jhansi Jn",
+            "lat": 25.4484,
+            "lon": 78.5685,
+            "stop_type": "technical"
+          },
+          {
+            "name": "Hazrat Nizamuddin",
+            "lat": 28.5893,
+            "lon": 77.2512,
+            "stop_type": "destination"
+          }
+        ]
+      }
+    ],
+    "features": [
+      "Non-stop or minimal-stop service",
+      "Second highest priority on rail network after Rajdhani",
+      "Distinctive yellow-green livery",
+      "Fully air-conditioned coaches",
+      "LHB (Linke Hofmann Busch) coaches with anti-telescopic design",
+      "Food included in fare",
+      "Classes: 1AC, 2AC, 3AC, SL (on select trains)",
+      "Maximum speed: 130-140 km/h",
+      "Average speed: 60-86 km/h",
+      "No unreserved accommodation",
+      "Originally non-stop, now with technical/commercial halts since 2016"
+    ],
+    "notes": {
+      "stop_types": {
+        "origin": "Starting station",
+        "destination": "Ending station",
+        "technical": "Technical halt (originally for crew change/loco change, now commercial)"
+      },
+      "fastest_service": "Mumbai Central - New Delhi (12209/12210) with 86 km/h average speed",
+      "longest_route": "Ernakulam - Hazrat Nizamuddin (12283/12284) covering 2,943 km",
+      "shortest_route": "Mumbai Central - Ahmedabad (12267/12268) covering 491 km"
+    }
+  }
+}
