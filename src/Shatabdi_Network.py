@@ -17,8 +17,9 @@ import os
 # Map specifications
 map_specs = {
     #"map_title": "Shatabdi Express Network",
-    "map_title": "Jan Shatabdi Express Network",
-    "current_route_color": "#227AB4",    
+    "map_title": "Shatabdi/Jan Shatabdi Express Network",
+    "shatabdi_route_color": "#227AB4",
+    "jan_shatabdi_route_color": "#CC0234",
     "route_line_width": 2,
     "station_marker_color": "#FFA500",
     "station_marker_size": 50,
@@ -171,17 +172,17 @@ ax.set_title(map_specs["map_title"], fontsize=16, fontweight='bold', pad=20)
 
 # Create custom legend
 from matplotlib.lines import Line2D
-'''
+
 legend_elements = [
-    Line2D([0], [0], color=map_specs["current_route_color"], lw=map_specs["route_line_width"], label='Current Routes'),
-    Line2D([0], [0], color=map_specs["prospective_route_color"], lw=map_specs["route_line_width"], linestyle='--', label='Prospective Routes'),
+    Line2D([0], [0], color=map_specs["shatabdi_route_color"], lw=map_specs["route_line_width"], label='Shatabdi Routes'),
+    Line2D([0], [0], color=map_specs["jan_shatabdi_route_color"], lw=map_specs["route_line_width"], label='Jan Shatabdi Routes'),
     Line2D([0], [0], marker='o', color='w', markerfacecolor=map_specs["station_marker_color"], 
            markersize=8, label='Stations', markeredgecolor='black')
 ]
 
 ax.legend(handles=legend_elements, loc=map_specs["additional_elements"]["legend_position"], 
          frameon=True, fancybox=True, shadow=True)
-         '''
+         
 
 # Remove axis ticks and labels for cleaner look
 ax.set_xlabel('')
@@ -200,6 +201,6 @@ ax.annotate('↑', xy=(0.95, 0.92), xycoords='axes fraction',
 plt.tight_layout()
 plt.savefig(map_specs["output_file_name"], dpi=map_specs["output_dpi"], bbox_inches='tight', 
            facecolor='white', edgecolor='none')
-#plt.show()
+
 
 print(f"Map saved as {map_specs['output_file_name']}")
