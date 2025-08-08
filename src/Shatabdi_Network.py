@@ -4,8 +4,6 @@ import networkx as nx
 import matplotlib.pyplot as plt
 from shapely.geometry import Point, LineString
 from contextily import add_basemap
-import momepy as mm
-from libpysal import weights
 from itertools import pairwise
 from collections import Counter
 import pandas as pd
@@ -56,42 +54,58 @@ stations_data = []
 routes_data = []
 routes_data_1 = []
 
+# Process Shatabdi Express routes
 for route in route_data["routes"]:
     route_name = route["name"]
     route_status = route["status"]
-
-for route_1 in route_data_1["routes"]:
-    route_name = route_1["name"]
-    route_status = route_1["status"]
+    route_type = "Shatabdi"
 
     # Collect stations
     route_stations = []
-    route_stations_1 = []
     for station in route["stations"]:
         stations_data.append({
             'name': station['name'],
             'geometry': Point(station['lon'], station['lat']),
             'route': route_name,
-            'status': route_status
+            'status': route_status,
+            'type': route_type
         })
         route_stations.append(Point(station['lon'], station['lat']))
-
-    for station_1 in route_1["stations"]:
-        stations_data.append{
-            'name': station_1['name'],
-            'geometry': Point(station_1['lon'], station_1['lat']),
-            'route': route_name,
-            'status': route_status
-            })
-        route_stations_1.append(Point(station_1['lon'], station_1['lat']))
-        
 
     # Create LineString for the route
     if len(route_stations) > 1:
         routes_data.append({
             'name': route_name,
             'status': route_status,
+            'type': route_type,
             'geometry': LineString([(p.x, p.y) for p in route_stations])
+        })
+
+# Process Jan Shatabdi Express routes
+for route_1 in route_data_1["routes"]:
+    route_name = route_1["name"]
+    route_status = route_1["status"]
+    route_type = "Jan Shatabdi"
+
+    # Collect stations
+    route_stations_1 = []
+    for station_1 in route_1["stations"]:
+        stations_data.append({
+            'name': station_1['name'],
+            'geometry': Point(station_1['lon'], station_1['lat']),
+            'route': route_name,
+            'status': route_status,
+            'type': route_type
+        })
+        route_stations_1.append(Point(station_1['lon'], station_1['lat']))
+
+    # Create LineString for the route
+    if len(route_stations_1) > 1:
+        routes_data.append({
+            'name': route_name,
+            'status': route_status,
+            'type': route_type,
+            'geometry': LineString([(p.x, p.y) for p in route_stations_1])
         })
 
 # Create GeoDataFrames
@@ -121,27 +135,22 @@ except:
     print("Could not load basemap, continuing without it...")
 
 # Step 4: Plot routes
-shatabdi_route = routes_gdf[routes_gdf['status'] == 'current']
-#prospective_routes = routes_gdf[routes_gdf['status'] == 'prospective']
+shatabdi_routes = routes_gdf[routes_gdf['type'] == 'Shatabdi']
+jan_shatabdi_routes = routes_gdf[routes_gdf['type'] == 'Jan Shatabdi']
 
 # Plot Shatabdi routes
-if not shatabdi_route.empty:
-    shatabdi_route.plot(ax=ax, 
-                       color=map_specs["shatabdi_route_color"], 
-                       linewidth=map_specs["route_line_width"],
-                       #label='Current Routes',
-                       zorder=2)
+if not shatabdi_routes.empty:
+    shatabdi_routes.plot(ax=ax, 
+                        color=map_specs["shatabdi_route_color"], 
+                        linewidth=map_specs["route_line_width"],
+                        zorder=2)
 
 # Plot Jan Shatabdi routes
-'''
-if not prospective_routes.empty:
-    prospective_routes.plot(ax=ax, 
-                           color=map_specs["prospective_route_color"], 
-                           linewidth=map_specs["route_line_width"],
-                           linestyle='--',
-                           label='Prospective Routes',
-                           zorder=2)
-'''
+if not jan_shatabdi_routes.empty:
+    jan_shatabdi_routes.plot(ax=ax, 
+                            color=map_specs["jan_shatabdi_route_color"], 
+                            linewidth=map_specs["route_line_width"],
+                            zorder=2)
 # Plot stations
 
 stations_gdf.plot(ax=ax, 
