@@ -29,7 +29,7 @@ map_specs = {
         "legend_position": "lower right",
         "grid_lines": False
     },
-    "output_file_name": "../media/Jan_Shatabdi_exp_routes_map.png",
+    "output_file_name": "../media/Shatabdi_exp_routes_map.png",
     #"output_file_name": "../media/Shatabdi_exp_routes_map.png",    
     "output_dpi": 500
 }
