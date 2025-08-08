@@ -1,3 +1,4 @@
+
 import contextily
 import geopandas as gpd
 import networkx as nx
@@ -16,8 +17,10 @@ import os
 
 # Map specifications
 map_specs = {
-    "map_title": "Rajdhani Express Network",
-    "current_route_color": "#CC0000",    
+    "map_title": "Premium Express Network (Rajdhani, Duronto & Humsafar)",
+    "rajdhani_route_color": "#CC0000",
+    "duronto_route_color": "#228B22",
+    "humsafar_route_color": "#FF6600",
     "route_line_width": 2,
     "station_marker_color": "#FFA500",
     "station_marker_size": 50,
@@ -29,30 +32,62 @@ map_specs = {
         "legend_position": "lower right",
         "grid_lines": False
     },
-    "output_file_name": "../media/rajdhani_exp_routes_map.png",
+    "output_file_name": "../media/premium_express_routes_map.png",
     "output_dpi": 500
 }
-filename = '../data/rajdhani_route_data.json'
-try:    
-    with open(filename, 'r', encoding='utf-8') as file:
-        raw_data = json.load(file)
-        route_data = raw_data['rajdhani_express_routes']
-    print(f"✅ Successfully loaded {len(route_data['routes'])} routes from {filename}")
 
+# Load Rajdhani routes
+rajdhani_filename = '../data/rajdhani_route_data.json'
+try:    
+    with open(rajdhani_filename, 'r', encoding='utf-8') as file:
+        raw_data = json.load(file)
+        rajdhani_route_data = raw_data['rajdhani_express_routes']
+    print(f"✅ Successfully loaded {len(rajdhani_route_data['routes'])} Rajdhani routes from {rajdhani_filename}")
 except FileNotFoundError:
-    print(f"❌ Error: File {filename} not found")
+    print(f"❌ Error: File {rajdhani_filename} not found")
     raise
 except json.JSONDecodeError as e:
-    print(f"❌ Error: Invalid JSON in '{filename}': {e}")
+    print(f"❌ Error: Invalid JSON in '{rajdhani_filename}': {e}")
     raise
+
+# Load Duronto routes
+duronto_filename = '../data/duronto_route_data.json'
+try:    
+    with open(duronto_filename, 'r', encoding='utf-8') as file:
+        raw_data = json.load(file)
+        duronto_route_data = raw_data['duronto_express_routes']
+    print(f"✅ Successfully loaded {len(duronto_route_data['routes'])} Duronto routes from {duronto_filename}")
+except FileNotFoundError:
+    print(f"❌ Error: File {duronto_filename} not found")
+    raise
+except json.JSONDecodeError as e:
+    print(f"❌ Error: Invalid JSON in '{duronto_filename}': {e}")
+    raise
+
+# Load Humsafar routes
+humsafar_filename = '../data/humsafar_route_data.json'
+try:    
+    with open(humsafar_filename, 'r', encoding='utf-8') as file:
+        raw_data = json.load(file)
+        humsafar_route_data = raw_data['humsafar_express_routes']
+    print(f"✅ Successfully loaded {len(humsafar_route_data['routes'])} Humsafar routes from {humsafar_filename}")
+except FileNotFoundError:
+    print(f"❌ Error: File {humsafar_filename} not found")
+    raise
+except json.JSONDecodeError as e:
+    print(f"❌ Error: Invalid JSON in '{humsafar_filename}': {e}")
+    raise
+
 # Step 1: Preprocess the data
 # Create lists to store station and route data
 stations_data = []
 routes_data = []
 
-for route in route_data["routes"]:
+# Process Rajdhani routes
+for route in rajdhani_route_data["routes"]:
     route_name = route["name"]
     route_status = route["status"]
+    route_type = "Rajdhani"
 
     # Collect stations
     route_stations = []
@@ -61,7 +96,8 @@ for route in route_data["routes"]:
             'name': station['name'],
             'geometry': Point(station['lon'], station['lat']),
             'route': route_name,
-            'status': route_status
+            'status': route_status,
+            'type': route_type
         })
         route_stations.append(Point(station['lon'], station['lat']))
 
@@ -70,6 +106,61 @@ for route in route_data["routes"]:
         routes_data.append({
             'name': route_name,
             'status': route_status,
+            'type': route_type,
+            'geometry': LineString([(p.x, p.y) for p in route_stations])
+        })
+
+# Process Duronto routes
+for route in duronto_route_data["routes"]:
+    route_name = route["name"]
+    route_status = route["status"]
+    route_type = "Duronto"
+
+    # Collect stations
+    route_stations = []
+    for station in route["stations"]:
+        stations_data.append({
+            'name': station['name'],
+            'geometry': Point(station['lon'], station['lat']),
+            'route': route_name,
+            'status': route_status,
+            'type': route_type
+        })
+        route_stations.append(Point(station['lon'], station['lat']))
+
+    # Create LineString for the route
+    if len(route_stations) > 1:
+        routes_data.append({
+            'name': route_name,
+            'status': route_status,
+            'type': route_type,
+            'geometry': LineString([(p.x, p.y) for p in route_stations])
+        })
+
+# Process Humsafar routes
+for route in humsafar_route_data["routes"]:
+    route_name = route["name"]
+    route_status = route["status"]
+    route_type = "Humsafar"
+
+    # Collect stations
+    route_stations = []
+    for station in route["stations"]:
+        stations_data.append({
+            'name': station['name'],
+            'geometry': Point(station['lon'], station['lat']),
+            'route': route_name,
+            'status': route_status,
+            'type': route_type
+        })
+        route_stations.append(Point(station['lon'], station['lat']))
+
+    # Create LineString for the route
+    if len(route_stations) > 1:
+        routes_data.append({
+            'name': route_name,
+            'status': route_status,
+            'type': route_type,
             'geometry': LineString([(p.x, p.y) for p in route_stations])
         })
 
@@ -99,38 +190,40 @@ try:
 except:
     print("Could not load basemap, continuing without it...")
 
-# Step 4: Plot routes
-current_routes = routes_gdf[routes_gdf['status'] == 'current']
-#prospective_routes = routes_gdf[routes_gdf['status'] == 'prospective']
+# Step 4: Plot routes by type
+rajdhani_routes = routes_gdf[routes_gdf['type'] == 'Rajdhani']
+duronto_routes = routes_gdf[routes_gdf['type'] == 'Duronto']
+humsafar_routes = routes_gdf[routes_gdf['type'] == 'Humsafar']
 
-# Plot current routes
-if not current_routes.empty:
-    current_routes.plot(ax=ax, 
-                       color=map_specs["current_route_color"], 
+# Plot Rajdhani routes
+if not rajdhani_routes.empty:
+    rajdhani_routes.plot(ax=ax, 
+                        color=map_specs["rajdhani_route_color"], 
+                        linewidth=map_specs["route_line_width"],
+                        zorder=2)
+
+# Plot Duronto routes
+if not duronto_routes.empty:
+    duronto_routes.plot(ax=ax, 
+                       color=map_specs["duronto_route_color"], 
                        linewidth=map_specs["route_line_width"],
-                       #label='Current Routes',
                        zorder=2)
 
-# Plot prospective routes
-'''
-if not prospective_routes.empty:
-    prospective_routes.plot(ax=ax, 
-                           color=map_specs["prospective_route_color"], 
-                           linewidth=map_specs["route_line_width"],
-                           linestyle='--',
-                           label='Prospective Routes',
-                           zorder=2)
-'''
-# Plot stations
+# Plot Humsafar routes
+if not humsafar_routes.empty:
+    humsafar_routes.plot(ax=ax, 
+                        color=map_specs["humsafar_route_color"], 
+                        linewidth=map_specs["route_line_width"],
+                        zorder=2)
 
+# Plot stations
 stations_gdf.plot(ax=ax, 
                  color=map_specs["station_marker_color"],
                  markersize=map_specs["station_marker_size"],
                  label='Stations',
-                 zorder=2,
+                 zorder=3,
                  edgecolors='black',
                  linewidth=0.5)
-
 
 # Step 5: Add labels for major cities
 major_cities = [
@@ -150,7 +243,15 @@ major_cities = [
     'Patna',
     'Puri',
     'Visakhapatnam',
-    'Hyderabad' 
+    'Hyderabad',
+    'Mumbai Central',
+    'Hazrat Nizamuddin',
+    'Secunderabad Jn',
+    'Yesvantpur Jn',
+    'Ernakulam Jn',
+    'Jammu Tawi',
+    'Sealdah',
+    'Tirupati'
 ]
 for idx, row in stations_gdf.iterrows():
     if row['name'] in major_cities:
@@ -168,17 +269,17 @@ ax.set_title(map_specs["map_title"], fontsize=16, fontweight='bold', pad=20)
 
 # Create custom legend
 from matplotlib.lines import Line2D
-'''
+
 legend_elements = [
-    Line2D([0], [0], color=map_specs["current_route_color"], lw=map_specs["route_line_width"], label='Current Routes'),
-    Line2D([0], [0], color=map_specs["prospective_route_color"], lw=map_specs["route_line_width"], linestyle='--', label='Prospective Routes'),
+    Line2D([0], [0], color=map_specs["rajdhani_route_color"], lw=map_specs["route_line_width"], label='Rajdhani Express'),
+    Line2D([0], [0], color=map_specs["duronto_route_color"], lw=map_specs["route_line_width"], label='Duronto Express'),
+    Line2D([0], [0], color=map_specs["humsafar_route_color"], lw=map_specs["route_line_width"], label='Humsafar Express'),
     Line2D([0], [0], marker='o', color='w', markerfacecolor=map_specs["station_marker_color"], 
            markersize=8, label='Stations', markeredgecolor='black')
 ]
 
 ax.legend(handles=legend_elements, loc=map_specs["additional_elements"]["legend_position"], 
          frameon=True, fancybox=True, shadow=True)
-         '''
 
 # Remove axis ticks and labels for cleaner look
 ax.set_xlabel('')
@@ -197,6 +298,13 @@ ax.annotate('↑', xy=(0.95, 0.92), xycoords='axes fraction',
 plt.tight_layout()
 plt.savefig(map_specs["output_file_name"], dpi=map_specs["output_dpi"], bbox_inches='tight', 
            facecolor='white', edgecolor='none')
-#plt.show()
 
 print(f"Map saved as {map_specs['output_file_name']}")
+
+# Print summary statistics
+print(f"\n📊 Route Summary:")
+print(f"   • Rajdhani Express: {len(rajdhani_routes)} routes")
+print(f"   • Duronto Express: {len(duronto_routes)} routes") 
+print(f"   • Humsafar Express: {len(humsafar_routes)} routes")
+print(f"   • Total Stations: {len(stations_gdf)} unique stations")
+print(f"   • Total Routes: {len(routes_gdf)} routes")
