@@ -39,9 +39,10 @@ filename = '../data/Shatabdi_route_data.json'
 try:    
     with open(filename, 'r', encoding='utf-8') as file:
         raw_data = json.load(file)
-        #route_data = raw_data['shatabdi_express_routes']
-        route_data = raw_data['jan_shatabdi_express_routes']
-    print(f"✅ Successfully loaded {len(route_data['routes'])} routes from {filename}")
+        route_data = raw_data['shatabdi_express_routes']
+        route_data_1 = raw_data['jan_shatabdi_express_routes']
+    print(f"✅ Successfully loaded {len(route_data['routes'])} Shatabdi Express routes from {filename}")
+    print(f"✅ Successfully loaded {len(route_data_1['routes'])} Jan Shatabdi Express routes from {filename}")
 
 except FileNotFoundError:
     print(f"❌ Error: File {filename} not found")
@@ -53,13 +54,19 @@ except json.JSONDecodeError as e:
 # Create lists to store station and route data
 stations_data = []
 routes_data = []
+routes_data_1 = []
 
 for route in route_data["routes"]:
     route_name = route["name"]
     route_status = route["status"]
 
+for route_1 in route_data_1["routes"]:
+    route_name = route_1["name"]
+    route_status = route_1["status"]
+
     # Collect stations
     route_stations = []
+    route_stations_1 = []
     for station in route["stations"]:
         stations_data.append({
             'name': station['name'],
@@ -68,6 +75,16 @@ for route in route_data["routes"]:
             'status': route_status
         })
         route_stations.append(Point(station['lon'], station['lat']))
+
+    for station_1 in route_1["stations"]:
+        stations_data.append{
+            'name': station_1['name'],
+            'geometry': Point(station_1['lon'], station_1['lat']),
+            'route': route_name,
+            'status': route_status
+            })
+        route_stations_1.append(Point(station_1['lon'], station_1['lat']))
+        
 
     # Create LineString for the route
     if len(route_stations) > 1:
@@ -104,18 +121,18 @@ except:
     print("Could not load basemap, continuing without it...")
 
 # Step 4: Plot routes
-current_routes = routes_gdf[routes_gdf['status'] == 'current']
+shatabdi_route = routes_gdf[routes_gdf['status'] == 'current']
 #prospective_routes = routes_gdf[routes_gdf['status'] == 'prospective']
 
-# Plot current routes
-if not current_routes.empty:
-    current_routes.plot(ax=ax, 
-                       color=map_specs["current_route_color"], 
+# Plot Shatabdi routes
+if not shatabdi_route.empty:
+    shatabdi_route.plot(ax=ax, 
+                       color=map_specs["shatabdi_route_color"], 
                        linewidth=map_specs["route_line_width"],
                        #label='Current Routes',
                        zorder=2)
 
-# Plot prospective routes
+# Plot Jan Shatabdi routes
 '''
 if not prospective_routes.empty:
     prospective_routes.plot(ax=ax, 
