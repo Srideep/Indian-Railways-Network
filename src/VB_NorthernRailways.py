@@ -136,7 +136,7 @@ ROUTES = {
     # 3
     "New Delhi ⇄ SMVD Katra": ["NDLS", "UMB", "LDH", "PTKC", "JAT", "SVDK"],
     # 4
-    "Meerut ⇄ Lucknow": ["MTC", "HPU", "MB", "BE", "LKO"],
+    "Meerut ⇄ Varanasi": ["MTC", "HPU", "MB", "BE", "LKO", "AY", "BSB"],
     # 5
     "Anand Vihar ⇄ Ayodhya": ["ANVT", "KRJ", "ALJN", "CNB", "LKO", "AY"],
     # 6
